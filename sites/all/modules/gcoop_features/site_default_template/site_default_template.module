@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the site_default_template feature.
+ */
+
+include_once('site_default_template.features.inc');

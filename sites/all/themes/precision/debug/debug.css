@@ -1,0 +1,273 @@
+/**
+ * Move contextual links to make room for pane width
+ */
+body.show-grid div.contextual-links-wrapper {
+  right: 15px;
+}
+
+/**
+ * Debug
+ */
+body.show-grid .region {
+ background: url(img/1-col.gif);
+}
+
+body.show-grid .region .grid-1:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_01.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-2:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_02.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-3:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_03.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-4:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_04.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-5:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_05.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-6:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_06.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-7:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_07.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-8:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_08.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-9:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_09.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-10:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_10.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-11:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_11.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-12:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_12.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-13:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_13.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-14:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_14.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-15:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_15.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-16:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_16.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-17:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_17.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-18:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_18.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-19:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_19.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-20:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_20.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-21:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_21.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-22:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_22.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-23:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_23.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-24:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_24.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-25:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_25.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-26:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_26.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-27:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_27.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-28:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_28.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-29:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_29.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-30:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_30.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-31:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_31.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-32:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_32.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-33:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_33.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-34:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_34.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-35:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_35.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-36:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_36.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-37:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_37.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-38:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_38.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-39:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_39.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-40:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_40.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-41:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_41.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-42:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_42.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-43:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_43.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-44:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_44.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-45:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_45.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-46:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_46.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-47:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_47.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-48:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_48.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-49:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_49.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-50:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_50.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-51:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_51.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-52:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_52.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-53:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_53.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-54:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_54.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-55:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_55.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-56:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_56.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-57:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_57.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-58:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_58.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-59:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_59.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-60:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_60.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-61:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_61.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-62:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_62.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-63:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_63.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-64:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_64.png) no-repeat top right;
+}
+
+body.show-grid .region .grid-65:hover {
+  background: rgba(110, 196, 227, 0.3) url(img/grid_65.png) no-repeat top right;
+}

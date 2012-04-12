@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the inicio feature.
+ */
+
+include_once('inicio.features.inc');

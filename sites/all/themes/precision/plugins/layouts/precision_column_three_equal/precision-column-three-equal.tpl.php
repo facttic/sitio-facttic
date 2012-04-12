@@ -1,0 +1,57 @@
+<?php
+
+/**
+ * @file
+ * This layout is intended to be used inside the page content pane. Thats why
+ * there is not wrapper div by default.
+ */
+?>
+<?php if (!empty($css_id)): ?>
+  <div id="<?php print $css_id; ?>" class="clearfix">
+<?php endif; ?>
+
+<?php if (!empty($content['header_alpha'])): ?>
+  <div class="page-header-alpha grid-48 alpha omega">
+    <div class="sub-region page-header-alpha-inner clearfix">
+      <?php print render($content['header_alpha']); ?>
+    </div>
+  </div>
+<?php endif; ?>
+
+<div class="page-main-wrapper">
+<?php if (!empty($content['main_alpha'])): ?>
+  <div class="page-main-alpha grid-16 alpha">
+    <div class="sub-region page-header-alpha-inner clearfix">
+      <?php print render($content['main_alpha']); ?>
+    </div>
+  </div>
+<?php endif; ?>
+
+<?php if (!empty($content['main_beta'])): ?>
+  <div class="page-main-beta grid-16">
+    <div class="sub-region page-header-beta-inner clearfix">
+      <?php print render($content['main_beta']); ?>
+    </div>
+  </div>
+<?php endif; ?>
+
+<?php if (!empty($content['main_gamma'])): ?>
+  <div class="page-main-gamma grid-16 omega">
+    <div class="sub-region page-header-gamma-inner clearfix">
+      <?php print render($content['main_gamma']); ?>
+    </div>
+  </div>
+<?php endif; ?>
+</div>
+
+<?php if (!empty($content['footer_alpha'])): ?>
+  <div class="page-footer-alpha grid-48 alpha omega">
+    <div class="sub-region page-footer-alpha-inner clearfix">
+      <?php print render($content['footer_alpha']); ?>
+    </div>
+  </div>
+<?php endif; ?>
+
+<?php if (!empty($css_id)): ?>
+  </div>
+<?php endif; ?>

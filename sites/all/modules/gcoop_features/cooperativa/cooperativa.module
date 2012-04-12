@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the cooperativa feature.
+ */
+
+include_once('cooperativa.features.inc');
