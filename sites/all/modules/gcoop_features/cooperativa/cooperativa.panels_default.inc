@@ -34,7 +34,7 @@ function cooperativa_default_panels_mini() {
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
-    $pane->pid = 'new-6';
+    $pane->pid = 'new-8';
     $pane->panel = 'main';
     $pane->type = 'views';
     $pane->subtype = 'descripcion_actividad';
@@ -77,10 +77,10 @@ function cooperativa_default_panels_mini() {
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $display->content['new-6'] = $pane;
-    $display->panels['main'][0] = 'new-6';
+    $display->content['new-8'] = $pane;
+    $display->panels['main'][0] = 'new-8';
     $pane = new stdClass();
-    $pane->pid = 'new-7';
+    $pane->pid = 'new-9';
     $pane->panel = 'main';
     $pane->type = 'views';
     $pane->subtype = 'noticias_home';
@@ -123,10 +123,10 @@ function cooperativa_default_panels_mini() {
     $pane->extras = array();
     $pane->position = 1;
     $pane->locks = array();
-    $display->content['new-7'] = $pane;
-    $display->panels['main'][1] = 'new-7';
+    $display->content['new-9'] = $pane;
+    $display->panels['main'][1] = 'new-9';
     $pane = new stdClass();
-    $pane->pid = 'new-8';
+    $pane->pid = 'new-10';
     $pane->panel = 'main';
     $pane->type = 'panels_mini';
     $pane->subtype = 'seguinos_cooperativas';
@@ -157,10 +157,10 @@ function cooperativa_default_panels_mini() {
     $pane->extras = array();
     $pane->position = 2;
     $pane->locks = array();
-    $display->content['new-8'] = $pane;
-    $display->panels['main'][2] = 'new-8';
+    $display->content['new-10'] = $pane;
+    $display->panels['main'][2] = 'new-10';
   $display->hide_title = PANELS_TITLE_NONE;
-  $display->title_pane = 'new-6';
+  $display->title_pane = 'new-8';
   $mini->display = $display;
   $export['encabezado_cooperativas'] = $mini;
 
@@ -188,7 +188,7 @@ function cooperativa_default_panels_mini() {
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
-    $pane->pid = 'new-9';
+    $pane->pid = 'new-11';
     $pane->panel = 'main';
     $pane->type = 'views';
     $pane->subtype = 'redes_sociales_cooperativas';
@@ -218,10 +218,10 @@ function cooperativa_default_panels_mini() {
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $display->content['new-9'] = $pane;
-    $display->panels['main'][0] = 'new-9';
+    $display->content['new-11'] = $pane;
+    $display->panels['main'][0] = 'new-11';
   $display->hide_title = PANELS_TITLE_NONE;
-  $display->title_pane = 'new-9';
+  $display->title_pane = 'new-11';
   $mini->display = $display;
   $export['seguinos_cooperativas'] = $mini;
 

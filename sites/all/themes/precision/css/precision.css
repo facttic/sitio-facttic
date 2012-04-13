@@ -390,6 +390,13 @@ background: url(../images/correo.png) no-repeat scroll center transparent;
 outline: none;
 }
 
+.view-mapa-miembros .gmap-gmap {
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+.listademiembros, .mapa-miembros {
+  min-height: 591px;
+}
 .view-miembros {
 font-family: arial,Helvetica,sans-serif;
 font-size: 0.85em;
