@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the pagina feature.
+ */
+
+include_once 'pagina.features.inc';

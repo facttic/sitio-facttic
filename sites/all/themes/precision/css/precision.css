@@ -472,11 +472,11 @@ outline: none;
 text-decoration: none;
 color: #000;
 }
-.titulo-noticia-completa {
+.titulo-noticia-completa, .titulo-pagina {
 font-size: 1.6em;
 margin-top: 10px;
 }
-.fecha-noticia-completa {
+.fecha-noticia-completa, .fecha-pagina {
 font-size:.9em;
 color: #a6a6a6;
 margin: 10px 0;
@@ -484,13 +484,9 @@ border-bottom: 1px dashed #CCCCCC;
 width: auto;
 padding: 3px;
 }
-.cuerpo-noticiacompleta {
+.cuerpo-noticiacompleta, .cuerpo-pagina {
 font-size: .9em;
 color: #4d4d4d;
 margin-bottom: 20px;
 }
 
-.pane-page-content {
-
-
-}
