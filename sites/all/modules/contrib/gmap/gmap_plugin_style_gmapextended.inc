@@ -322,6 +322,7 @@ class gmap_plugin_style_gmapextended extends views_plugin_style {
    * Validate the options form.
    */
   function options_validate(&$form, &$form_state) {
+    parent::options_validate($form, $form_state));
     // Check if highlight color is a valid hex color
     if (!preg_match('/^#[a-f0-9]{6}$/i', $form_state['values']['style_options']['highlight_nodearg_color'])) {
       form_error($form['highlight_nodearg_color'], t('Highlight colour must be a valid hex code in the form #FF0000.'));
