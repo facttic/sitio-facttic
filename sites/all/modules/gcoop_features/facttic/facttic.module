@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the facttic feature.
+ */
+
+include_once 'facttic.features.inc';
