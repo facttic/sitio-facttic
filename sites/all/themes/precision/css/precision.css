@@ -68,6 +68,16 @@ padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
 }
+
+.sf-menu.sf-style-default li.active-trail a {
+background: #000;
+color: #4D4D4D;
+}
+
+.sf-menu.sf-style-default li.active-trail {
+background: #000;
+color:#4D4D4D;
+}
 .sf-menu.sf-style-default a {
   border-left: 1px solid #fff;
   border-top: 1px solid #fff;
@@ -84,8 +94,7 @@ padding: 0;
 .sf-menu.sf-style-default a:active {
   background: #E5E5E5;
   outline: 0;
-  color: #000;
-  
+  color: #000;  
 }
 .sf-menu.sf-style-default li li {
   background:  #D8D8D8;  
@@ -152,7 +161,7 @@ text-decoration: none;
 outline: none;
 }
 .logoc img {
-margin: 2px 13px;
+margin: 2px 8px;
 }
 .navegador {
 font-size: 11px;

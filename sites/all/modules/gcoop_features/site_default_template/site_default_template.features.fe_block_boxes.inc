@@ -60,6 +60,14 @@ function site_default_template_default_fe_block_boxes() {
 	</a> 
         <a class="logoc" target="_blank" href="http://www.hego.com.ar/" title="HEGO">
 		<img src="<?php print $baseurl; ?>/hego.png"/>
+       <span></span>
+     </a>
+          <a class="logoc" target="_blank" href="http://infracoop.com.ar/" title="INFRACOOP">
+       <img src="<?php print $baseurl; ?>/infracoop.png"/>
+		<span></span>
+	</a>
+        <a class="logoc" target="_blank" href="https://sites.google.com/a/it10coop.com.ar/it10/" title="IT10">
+		<img src="<?php print $baseurl; ?>/it10.png"/>
 		<span></span>
 	</a>
      </div>
