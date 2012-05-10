@@ -183,6 +183,13 @@ margin-bottom: 10px;
 color: #4d4d4d;
 }
 
+.seguinos-home #t_coment {
+font-size: 0.85em;
+height: 400px;
+overflow: auto;
+padding-left: 5px;
+}
+
 .titulosbloques {
 background: url(../images/linea-4.png) no-repeat scroll right bottom transparent;
 font-family: Arial,Helvetica,sans-serif;
