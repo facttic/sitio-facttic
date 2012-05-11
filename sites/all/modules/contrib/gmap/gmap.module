@@ -552,7 +552,9 @@ function gmap_regenerate_markers() {
   // Make sure js/ exists in the files folder.
   if (file_prepare_directory($dir, FILE_CREATE_DIRECTORY)) {
     $file = file_save_data($contents, 'public://js/gmap_markers.js', FILE_EXISTS_REPLACE);
-    variable_set('gmap_marker_file', $file->fid);
+    if (!empty($file)) {
+      variable_set('gmap_marker_file', $file->fid);
+    }
   }
   else {
     drupal_set_message(t('GMap is unable to save the marker bundle. Markers will not work!'), 'error');
@@ -905,12 +907,6 @@ function gmap_map_cleanup(&$map) {
  */
 function theme_gmap($variables) {
   $element = $variables['element'];
-
-  // Usability: Prevent js errors on first visit to settings page, etc.
-  // Of course it will still error if the *wrong* key is on file.
-  if (gmap_get_key() == '') {
-    return t('Unable to render map: Google Maps API key is missing.');
-  }
 
   // Track the mapids we've used already.
   static $mapids = array();

@@ -1103,7 +1103,7 @@ function _location_country_ajax_callback($form, $form_state) {
   if (arg(2) == 'locations' && isset($form['locations'][arg(3)]['province'])) {
     return $form['locations'][arg(3)]['province'];
   }
-  elseif (isset($form['locations'][arg(2)][arg(3)][arg(4)])) {
+  elseif (isset($form[arg(2)][arg(3)][arg(4)])) {
     return $form[arg(2)][arg(3)][arg(4)]['province']; 
   }
 }

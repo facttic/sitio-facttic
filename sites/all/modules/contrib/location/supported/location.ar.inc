@@ -4,10 +4,10 @@
 
 function location_province_list_ar() {
   return array('A' => "Salta",
-    'B' => "Buenos Aires",
-    'C' => "C.A.B.A.",
+    'B' => "Buenos Aires Province",
+    'C' => "Distrito Federal",
     'D' => "San Luis",
-    'E' => "Entre Ríos",
+    'E' => "Entre Rios",
     'F' => "La Rioja",
     'G' => "Santiago del Estero",
     'H' => "Chaco",
@@ -17,14 +17,14 @@ function location_province_list_ar() {
     'M' => "Mendoza",
     'N' => "Misiones",
     'P' => "Formosa",
-    'Q' => "Neuquén",
+    'Q' => "Neuquen",
     'R' => "Rio Negro",
     'S' => "Santa Fe",
-    'T' => "Tucumán",
+    'T' => "Tucuman",
     'U' => "Chubut",
     'V' => "Tierra del Fuego",
     'W' => "Corrientes",
-    'X' => "Córdoba",
+    'X' => "Cordoba",
     'Y' => "Jujuy",
     'Z' => "Santa Cruz");
 }

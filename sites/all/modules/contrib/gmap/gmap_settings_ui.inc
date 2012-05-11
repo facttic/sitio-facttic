@@ -34,7 +34,7 @@ function gmap_admin_settings($form, &$form_state) {
   }
 
   $form['initialization']['googlemap_api_key']['#title'] = t('Google Maps API Key');
-  $form['initialization']['googlemap_api_key']['#description'] = t('Your personal Googlemaps API key.  You must get this for each separate website at <a href="http://code.google.com/apis/maps/signup.html">Google Map API website</a>.');
+  $form['initialization']['googlemap_api_key']['#description'] = t('Your personal Googlemaps API key.  If you want to use an API key, you can get one at <a href="http://code.google.com/apis/maps/signup.html">Google Map API website</a>.');
 
   $form['initialization']['rebuild'] = array(
     '#type' => 'fieldset',
