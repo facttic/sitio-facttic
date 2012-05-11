@@ -69,14 +69,10 @@ padding: 0;
     text-transform: uppercase;
 }
 
-.sf-menu.sf-style-default li.active-trail a {
-background: #000;
-color: #4D4D4D;
-}
-
+.sf-menu.sf-style-default li.active-trail a, 
 .sf-menu.sf-style-default li.active-trail {
-background: #000;
-color:#4D4D4D;
+  background: #E5E5E5;
+  color:#000;
 }
 .sf-menu.sf-style-default a {
   border-left: 1px solid #fff;
