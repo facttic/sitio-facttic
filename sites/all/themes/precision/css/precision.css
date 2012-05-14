@@ -234,6 +234,11 @@ margin: 15px auto;
 width: 300px;
 padding-bottom: 4px;
 }
+
+.view-noticias .views-row {
+  width: auto;
+}
+
 .listadodenoticias .views-field-view-node a {
 background: url(../images/bullet-1.png) no-repeat scroll right bottom transparent;
 color: #F2F2F2;
@@ -246,10 +251,28 @@ left: 275px;
 bottom: 4px;
 outline: none;
 }
+
+.view-noticias .views-field-view-node a {
+  background: none;
+  color: #4D4D4D;
+  font-size: 0.85em;
+  height: auto;
+  left: auto;
+  bottom: auto;
+}
+.view-noticias .views-field-view-node {
+  text-align: right;
+}
+
 .listadodenoticias .views-field-view-node a:hover {
 background: url(../images/bullet-3.png) no-repeat scroll right bottom transparent;
 outline: none;
 }
+
+.view-noticias .views-field-view-node a:hover {
+  background: none;
+}
+
 .view-noticias-home .pager li  {
 color: #333;
 font-weight: normal;
