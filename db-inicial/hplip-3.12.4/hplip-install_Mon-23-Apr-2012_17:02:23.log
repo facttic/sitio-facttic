@@ -1,0 +1,481 @@
+hplip-install[22390]: info: :
+hplip-install[22390]: info: :[01mHP Linux Imaging and Printing System (ver. 3.12.4)[0m
+hplip-install[22390]: info: :[01mHPLIP Installer ver. 5.1[0m
+hplip-install[22390]: info: :
+hplip-install[22390]: info: :Copyright (c) 2001-14 Hewlett-Packard Development Company, LP
+hplip-install[22390]: info: :This software comes with ABSOLUTELY NO WARRANTY.
+hplip-install[22390]: info: :This is free software, and you are welcome to distribute it
+hplip-install[22390]: info: :under certain conditions. See COPYING file for more details.
+hplip-install[22390]: info: :
+hplip-install[22390]: info: :Installer log saved in: [01mhplip-install_Mon-23-Apr-2012_17:02:23.log[0m
+hplip-install[22390]: info: :
+hplip-install[22390]: info: :
+note: Defaults for each question are maked with a '*'. Press <enter> to accept the default.
+Ubuntu
+
+11.04
+
+el planificador de tareas se estÃ¡ ejecutando
+
+Linux pablo-notebook 2.6.38-8-generic #42-Ubuntu SMP Mon Apr 11 03:31:24 UTC 2011 x86_64 x86_64 x86_64 GNU/Linux
+
+hplip-install[22390]: info: :
+hplip-install[22390]: info: :
+hplip-install[22390]: info: :[01mINSTALLATION MODE[0m
+hplip-install[22390]: info: :[01m-----------------[0m
+hplip-install[22390]: info: :Automatic mode will install the full HPLIP solution with the most common options.
+hplip-install[22390]: info: :Custom mode allows you to choose installation options to fit specific requirements.
+hplip-install[22390]: info: :
+Initializing. Please wait...
+hplip-install[22390]: info: :
+hplip-install[22390]: info: :
+hplip-install[22390]: info: :[01mINTRODUCTION[0m
+hplip-install[22390]: info: :[01m------------[0m
+hplip-install[22390]: info: :This installer will install HPLIP version 3.12.4 on your computer.
+hplip-install[22390]: info: :Please close any running package management systems now (YaST, Adept, Synaptic, Up2date, etc).
+hplip-install[22390]: info: :
+hplip-install[22390]: info: :
+hplip-install[22390]: info: :[01mDISTRO/OS CONFIRMATION[0m
+hplip-install[22390]: info: :[01m----------------------[0m
+hplip-install[22390]: info: :Distro appears to be Ubuntu 11.04.
+
+hplip-install[22390]: info: :
+hplip-install[22390]: info: :
+hplip-install[22390]: info: :[01mENTER USER PASSWORD[0m
+hplip-install[22390]: info: :[01m-------------------[0m
+[sudo] 
+ for pablo: 
+
+hplip-install[22390]: info: :Password accepted
+hplip-install[22390]: info: :
+hplip-install[22390]: info: :
+hplip-install[22390]: info: :[01mINSTALLATION NOTES[0m
+hplip-install[22390]: info: :[01m------------------[0m
+hplip-install[22390]: info: :Enable the universe/multiverse repositories. Also be sure you are using the Ubuntu "Main" Repositories. See: https://help.ubuntu.com/community/Repositories/Ubuntu for more information.  Disable the CD-ROM/DVD source if you do not have the Ubuntu installation media inserted in the drive.  During the install process you will be added to the lp and lpadmin group, please quit the installer before the setup stage, log out, log back in, and run hp-setup to complete the install.
+hplip-install[22390]: info: :
+hplip-install[22390]: info: :
+hplip-install[22390]: info: :
+hplip-install[22390]: info: :[01mRUNNING PRE-INSTALL COMMANDS[0m
+hplip-install[22390]: info: :[01m----------------------------[0m
+hplip-install[22390]: info: :OK
+hplip-install[22390]: info: :
+hplip-install[22390]: info: :
+hplip-install[22390]: info: :[01mINSTALL MISSING REQUIRED DEPENDENCIES[0m
+hplip-install[22390]: info: :[01m-------------------------------------[0m
+warning: There are 6 missing REQUIRED dependencies.
+note: Installation of dependencies requires an active internet connection.
+warning: Missing REQUIRED dependency: python-devel (Python devel - Python development files)
+warning: Missing REQUIRED dependency: cups-devel (CUPS devel- Common Unix Printing System development files)
+warning: Missing REQUIRED dependency: libusb (libusb - USB library)
+warning: Missing REQUIRED dependency: libtool (libtool - Library building support services)
+warning: Missing REQUIRED dependency: cups-image (CUPS image - CUPS image development files)
+warning: Missing REQUIRED dependency: libjpeg (libjpeg - JPEG library)
+hplip-install[22390]: info: :
+hplip-install[22390]: info: :
+hplip-install[22390]: info: :[01mINSTALL MISSING OPTIONAL DEPENDENCIES[0m
+hplip-install[22390]: info: :[01m-------------------------------------[0m
+warning: There are 7 missing OPTIONAL dependencies.
+note: Installation of dependencies requires an active internet connection.
+warning: Missing REQUIRED dependency for option 'network': libnetsnmp-devel (libnetsnmp-devel - SNMP networking library development files)
+warning: Missing REQUIRED dependency for option 'gui_qt4': pyqt4-dbus (PyQt 4 DBus - DBus Support for PyQt4)
+warning: Missing REQUIRED dependency for option 'gui_qt4': pyqt4 (PyQt 4- Qt interface for Python (for Qt version 4.x))
+warning: Missing OPTIONAL dependency for option 'fax': reportlab (Reportlab - PDF library for Python)
+warning: Missing REQUIRED dependency for option 'fax': dbus (DBus - Message bus system)
+warning: Missing REQUIRED dependency for option 'scan': sane-devel (SANE - Scanning library development files)
+warning: Missing OPTIONAL dependency for option 'base': cups-ddk (CUPS DDK - CUPS driver development kit)
+hplip-install[22390]: info: :
+hplip-install[22390]: info: :
+hplip-install[22390]: info: :[01mCHECKING FOR NETWORK CONNECTION[0m
+hplip-install[22390]: info: :[01m-------------------------------[0m
+--2012-04-23 17:02:52--  http://www.google.com/
+Resolving www.google.com... 
+173.194.42.49, 173.194.42.50, 173.194.42.48, ...
+Connecting to www.google.com|173.194.42.49|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://www.google.com.ar/ [following]
+--2012-04-23 17:02:54--  http://www.google.com.ar/
+Resolving www.google.com.ar... 
+173.194.42.63, 173.194.42.55, 173.194.42.56
+Connecting to www.google.com.ar|173.194.42.63|:80... 
+connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `STDOUT'
+
+    [<=>                                    ] 0           --.-K/s              <!doctype html><html itemscope itemtype="http://schema.org/WebPage"><head><meta http-equiv="content-type" content="text/html; charset=ISO-8859-1"><meta itemprop="image" content="/images/google_favicon_128.png"><title>Google</title><script>window.google={kEI:"cLWVT8msFJHU8wTRg_HZBA",getEI:function(a){var b;while(a&&!(a.getAttribute&&(b=a.getAttribute("eid"))))a=a.parentNode;return b||google.kEI},https:function(){return window.location.protocol=="https:"},kEXPI:"34955,36683,37197,37489,37646,37864,38212,38390",kCSI:{e:"34955,36683,37197,37489,37646,37864,38212,38390",ei:"cLWVT8msFJHU8wTRg_HZBA"},authuser:0,
+ml:function(){},kHL:"es-419",time:function(){return(new Date).getTime()},log:function(a,b,c,e){var d=new Image,h=google,i=h.lc,f=h.li,j="";d.onerror=(d.onload=(d.onabort=function(){delete i[f]}));i[f]=d;if(!c&&b.search("&ei=")==-1)j="&ei="+google.getEI(e);var g=c||"/gen_204?atyp=i&ct="+a+"&cad="+b+j+"&zx="+google.time();
+var k=/^http:/i;if(k.test(g)&&google.https()){google.ml(new Error("GLMM"),false,{src:g});delete i[f];return}d.src=g;h.li=f+1},lc:[],li:0,Toolbelt:{},y:{},x:function(a,b){google.y[a.id]=[a,b];return false}};
+window.google.sn="webhp";window.google.timers={};window.google.startTick=function(a,b){window.google.timers[a]={t:{start:(new Date).getTime()},bfr:!(!b)}};window.google.tick=function(a,b,c){if(!window.google.timers[a])google.startTick(a);window.google.timers[a].t[b]=c||(new Date).getTime()};google.startTick("load",true);try{}catch(u){}
+var _gjwl=location;function _gjuc(){var e=_gjwl.href.indexOf("#");if(e>=0){var a=_gjwl.href.substring(e);if(a.indexOf("&q=")>0||a.indexOf("#q=")>=0){a=a.substring(1);if(a.indexOf("#")==-1){for(var c=0;c<a.length;){var d=c;if(a.charAt(d)=="&")++d;var b=a.indexOf("&",d);if(b==-1)b=a.length;var f=a.substring(d,b);if(f.indexOf("fp=")==0){a=a.substring(0,c)+a.substring(b,a.length);b=c}else if(f=="cad=h")return 0;c=b}_gjwl.href="/search?"+a+"&cad=h";return 1}}}return 0}function _gjp(){!(window._gjwl.hash&&
+window._gjuc())&&setTimeout(_gjp,500)};
+window._gjp && _gjp()</script><style>#gbar,#guser{font-size:13px;padding-top:1px !important;}#gbar{height:22px}#guser{padding-bottom:7px !important;text-align:right}.gbh,.gbd{border-top:1px solid #c9d7f1;font-size:1px}.gbh{height:0;position:absolute;top:24px;width:100%}@media all{.gb1{height:22px;margin-right:.5em;vertical-align:top}#gbar{float:left}}a.gb1,a.gb4{text-decoration:underline !important}a.gb1,a.gb4{color:#00c !important}</style><style id=gstyle>body{margin:0;overflow-y:scroll}#gog{padding:3px 8px 0}td{line-height:.8em}.gac_m td{line-height:17px}form{margin-bottom:20px}body,td,a,p,.h{font-family:arial,sans-serif}.h{color:#36c;font-size:20px}.q{color:#00c}.ts td{padding:0}.ts{border-collapse:collapse}em{font-weight:bold;font-style:normal}.lst{height:25px;width:496px}.gsfi,.lst{font:18px arial,sans-serif}.gsfs{font:17px arial,sans-serif}.ds{display:-moz-inline-box;display:inline-block;margin:3px 0 4px;margin-left:4px}input{font-family:inherit}a.gb1,a.gb2,a.gb3,a.gb4{color:#11c !important}body{background:#fff;color:black}a{color:#11c;text-decoration:none}a:hover,a:active{text-decoration:underline}.fl a{color:#36c}a:visited{color:#551a8b}a.gb1,a.gb4{text-decoration:underline}a.gb3:hover{text-decoration:none}#ghead a.gb2:hover{color:#fff!important}.sblc{padding-top:5px}.sblc a{display:block;margin:2px 0;margin-left:13px;font-size:11px;}.lsbb{background:#eee;border:solid 1px;border-color:#ccc #999 #999 #ccc;height:30px;display:block}.ftl,#fll a{display:inline-block;margin:0 12px}.lsb{background:url(/images/srpr/nav_logo80.png) 0 -258px repeat-x;border:none;color:#000;cursor:pointer;height:30px;margin:0;outline:0;font:15px arial,sans-serif;vertical-align:top}.lsb:active{background:#ccc}.lst:focus{outline:none}#addlang a{padding:0 3px}.gac_v div{display:none}.gac_v .gac_v2,.gac_bt{display:block!important}table.gssb_c{z-index:986  }.nbcl{background:url(/images/srpr/nav_logo80.png) no-repeat ;height:px;width:px}</style><script>window.rwt=function(a,f,g,l,m,h,c,n,i){try{if(a===window){a=window.event.srcElement;while(a){if(a.href)break;a=a.parentNode}}var b=encodeURIComponent||escape,d;d=a.getAttribute("href");if(c&&c.substring(0,6)!="&sig2=")c="&sig2="+c;var o=["/url?sa=t","","&cd=",b(m),i?"&authuser="+b(i):"",google.j&&google.j.pf?"&sqi=2":"","&ved=",b(n),"&url=",b(d).replace(/\+/g,"%2B"),"&ei=","cLWVT8msFJHU8wTRg_HZBA",h?"&usg="+h:"",c].join("");a.href=o;a.onmousedown=""}catch(p){}return true};
+</script></head><body bgcolor=#ffffff text=#000000 link=#0000cc vlink=#551a8b alink=#ff0000 onload="document.f&&document.f.q.focus();document.gbqf&&document.gbqf.q.focus();if(document.images)new Image().src='/images/srpr/nav_logo80.png'" ><textarea id=csi style=display:none></textarea><div id=mngb><div id=gbar><nobr><b class=gb1>Búsqueda</b> <a class=gb1 href="http://www.google.com.ar/imghp?hl=es&tab=wi">Imágenes</a> <a class=gb1 href="http://video.google.com.ar/?hl=es&tab=wv">Vídeos</a> <a class=gb1 href="http://news.google.com.ar/nwshp?hl=es&tab=wn">Noticias</a> <a class=gb1 href="http://translate.google.com.ar/?hl=es&tab=wT">Traductor</a> <a class=gb1 href="http://books.google.com.ar/bkshp?hl=es&tab=wp">Libros</a> <a class=gb1 href="https://mail.google.com/mail/?tab=wm">Gmail</a> <a class=gb1 style="text-decoration:none" href="http://www.google.com.ar/intl/es/options/"><u>Más</u> &raquo;</a></nobr></div><div id=guser width=100%><nobr><span id=gbn class=gbi></span><span id=gbf class=gbf></span><span id=gbe></span><a href="http://www.google.com.ar/history/optout?hl=es" class=gb4>Historial web</a> | <a  href="/preferences?hl=es-419" class=gb4>Configuración</a> | <a target=_top id=gb_70 href="https://accounts.google.com/ServiceLogin?hl=es&
+=http://www.google.com.ar/" class=gb4>Iniciar sesión</a></nobr></div><div class=gbh style=left:0></div><div class=gbh style=right:0></div></div><center><br clear=all id=lgpd><div id=lga><div style="padding:28px 0 3px"><div align=left style="background:url(/images/srpr/logo1w.png) no-repeat;height:110px;width:276px" title="Google" id=hplogo onload="window.lol&&lol()"><div nowrap style="color:#777;font-size:16px;font-weight:bold;left:214px;position:relative;top:70px">Argentina</div></div></div><br></div><form action="/search" name=f><table cellpadding=0 cellspacing=0><tr valign=top><td width=25%>&nbsp;</td><td align=center nowrap><input name=hl type=hidden value=es-419><input name=source type=hidden value=hp><input type=hidden name=ie value="ISO-8859-1"><div class=ds style="height:32px;margin:4px 0"><input autocomplete=off maxlength=2048 name=q class="lst" title="Buscar con Google" value="" size=57 style="color:#000;margin:0;padding:5px 8px 0 6px;vertical-align:top"></div><br style="line-height:0"><span class=ds ><span class=lsbb><input name=btnG type=submit value="Buscar con Google" class=lsb></span></span><span class=ds><span class=lsbb><input name=btnI type=suYESbmit class=lsb value="Me siento con suerte"></span></span></td><td nowrap width=25% align=left class="fl sblc"><a href="/advanced_search?hl=es-419">Búsqueda avanzada</a><a href="/language_tools?hl=es-419">Herramientas de idioma</a></td></tr></table><input type=hidden id=gbv name=gbv value="1"></form><div style="font-size:83%;min-height:3.5em"><br></div><span id=footer><center id=fctr><div style="font-size:10pt"><div id=fll style="margin:19px auto;text-align:center"><a href="/intl/es-419/ads/">Programas de publicidad</a><a href="/services/">Soluciones Empresariales</a><a href="https://plus.google.com/112209395112018703654" rel="publisher">+Google</a><a href="/intl/es-419/about.html">Todo acerca de Google</a><a href="http://www.google.com/ncr" class="gl nobr">Google.com in English</a></div></div><p style="color:#767676;font-size:8pt">&copy; 2012 - <a href="/intl/es-419/policies/">Privacidad y condiciones</a></p></center></span> </center><div id=xjsd></div><div id=xjsi><script>if(google.y)google.y.first=[];google.dlj=function(b){window.setTimeout(function(){var a=document.createElement("script");a.src=b;document.getElementById("xjsd").appendChild(a)},0)};
+google.y.first=[];if(!google.xjs){google.dstr=[];google.rein=[];if(google.timers&&google.timers.load.t){google.timers.load.t.xjsls=new Date().getTime();}google.dlj('/extern_js/f/CgJlbhICdXMrMEU4ACwrMFo4ACwrMA44ACwrMBc4ACwrMDw4ACwrMIcCOAAsKzBROAAsKzAKOACaAgJoZSwrMJgBOAAsKzAWOAAsKzAZOAAsKzBBOAAsKzBNOAAsKzBOOAAsKzBUOAAsKzBpOAAsKzCQATgALCswkgE4ACwrMNUBOAAsKzDYATgALCswGDgALCswJjgALIACUJACdA/AZrFpCan9c8.js');google.xjs=1}(function(){google.xjsol=function(a){if(google.sc&&(a=google.sc[a])){for(var b=0;b<a.cb.length;b++)a.cb[b]();a.cb=[];a.lc=!0}};google.xjsl=function(a,b){var c=google.sc[a];c&&(c.dl?b&&b():(b&&c.cb.push(b),google.dlj(c.u),c.ls=!0,c.dl=!0))};google.register=google.register||function(a,b){google.y.first.push(function(){google.register(a,b)})};})();
+google.mc=[];google.mc=google.mc.concat([[69,{}],[14,{}],[263,{}],[60,{}],[23,{}],[81,{}],[10,{"client":"hp","dh":true,"ds":"","fl":true,"host":"google.com.ar","jsonp":true,"msgs":{"lcky":"Me siento con suerte","lml":"Más información","psrc":"Se ha eliminado esta búsqueda de tu \u003Ca href=\"/history\"\u003EHistorial web\u003C/a\u003E","psrl":"Eliminar","srch":"Buscar con Google"},"ovr":{"ms":1,"sw":1},"pq":"","scd":10,"sce":5,"stok":"cRKsdnC5IDqHli2Ayx6bII65A6I"}],[152,{}],[65,{}],[213,{"pberr":"\u003Cfont color=red\u003EError:\u003C/font\u003E el servidor no ha podido completar tu solicitud. Vuelve a intentarlo dentro de 30 segundos."}],[78,{}],[25,{"g":8,"k":false,"m":{"app":true,"bks":true,"blg":true,"dsc":true,"evn":true,"fin":true,"flm":true,"frm":true,"isch":true,"klg":true,"mbl":true,"nws":true,"plcs":true,"ppl":true,"prc":true,"pts":true,"rcp":true,"shop":true,"vid":true},"t":null}],[216,{}],[105,{}],[22,{"db":false,"m_errors":{"32":"Lo sentimos, no hay más resultados para mostrar.","default":"\u003Cfont color=red\u003EError:\u003C/font\u003E el servidor no ha podido completar tu solicitud. Vuelve a intentarlo dentro de 30 segundos."},"m_tip":"Haz clic para obtener más información","nlpm":"-153px -84px","nlpp":"-153px -70px","utp":false}],[77,{}],[146,{}],[144,{}],[84,{"tt_kft":true}],[24,{}],[38,{}]]);google.y.first.push(function(){if(google.med){google.med('init');google.initHistory();google.med('history');}google.History&&google.History.initialize('/')});if(google.j&&google.j.en&&google.j.xi){window.setTimeout(google.j.xi,0);}</script></div><script>(function(){
+var b,d,e,f;function g(a,c){if(a.removeEventListener){a.removeEventListener("load",c,false);a.removeEventListener("error",c,false)}else{a.detachEvent("onload",c);a.detachEvent("onerror",c)}}function h(a){f=(new Date).getTime();++d;a=a||window.event;var c=a.target||a.srcElement;g(c,h)}var i=document.getElementsByTagName("img");b=i.length;d=0;for(var j=0,k;j<b;++j){k=i[j];if(k.complete||typeof k.src!="string"||!k.src)++d;else if(k.addEventListener){k.addEventListener("load",h,false);k.addEventListener("error",
+h,false)}else{k.attachEvent("onload",h);k.attachEvent("onerror",h)}}e=b-d;function l(){if(!google.timers.load.t)return;google.timers.load.t.ol=(new Date).getTime();google.timers.load.t.iml=f;google.kCSI.imc=d;google.kCSI.imn=b;google.kCSI.imp=e;if(google.stt!==undefined)google.kCSI.stt=google.stt;google.timers.load.t.xjs&&google.report&&google.report(google.timers.load,google.kCSI)}if(window.addEventListener)window.addEventListener("load",
+l,false);else if(window.attachEvent)window.attachEvent("onload",l);google.timers.load.t.prt=(f=(new Date).getTime());
+})();
+</script>    [ <=>                                   ] 11.542      --.-K/s   in 0s      
+
+2012-04-23 17:02:56 (222 MB/s) - written to stdout [11542]
+
+
+
+hplip-install[22390]: info: :Network connection present.
+hplip-install[22390]: info: :
+hplip-install[22390]: info: :
+hplip-install[22390]: info: :[01mRUNNING PRE-PACKAGE COMMANDS[0m
+hplip-install[22390]: info: :[01m----------------------------[0m
+[sudo] 
+ for pablo: 
+
+hplip-install[22390]: info: :sudo dpkg --configure -a (Pre-depend step 1)
+[sudo] 
+ for pablo: 
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 62%Reading package lists... 62%
+ for pablo: Reading package lists... 85%Reading package lists... 85%Reading package lists... 86%
+ for pablo: Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  gstreamer0.10-fluendo-mp3 libboost-program-options1.42.0
+  libboost-date-time1.42.0 libgtkglext1 libboost-thread1.42.0
+Use 'apt-get autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 3 not upgraded.
+W: Duplicate sources.list entry http://archive.canonical.com/ubuntu/ natty/partner amd64 Packages (/var/lib/apt/lists/archive.canonical.com_ubuntu_dists_natty_partner_binary-amd64_Packages)
+W: Duplicate sources.list entry http://extras.ubuntu.com/ubuntu/ natty/main amd64 Packages (/var/lib/apt/lists/extras.ubuntu.com_ubuntu_dists_natty_main_binary-amd64_Packages)
+W: You may want to run apt-get update to correct these problems
+
+hplip-install[22390]: info: :sudo apt-get install --yes --force-yes -f (Pre-depend step 2)
+[sudo] 
+ for pablo: 
+0% [Working]            0% [Connecting to ar.archive.ubuntu.com] [Connecting to archive.canonical.com (
+ for pablo: 0% [Connecting to ar.archive.ubuntu.com (200.236.31.4)] [Waiting for headers] [                                                                               Ign http://archive.canonical.com natty InRelease
+5% [Waiting for headers] [Waiting for headers] [Waiting for headers] [Waiting f                                                                               Ign http://dl.google.com stable InRelease
+9% [Waiting for headers] [Waiting for headers] [Waiting for headers] [Waiting f                                                                               Ign http://extras.ubuntu.com natty InRelease
+12% [Waiting for headers] [Waiting for headers] [Waiting for headers] [Waiting 
+ for pablo:                                                                                Ign http://archive.ubuntu.com natty InRelease
+15% [Waiting for headers] [Waiting for headers] [Waiting for headers] [Waiting                                                                                Get:1 http://dl.google.com stable Release.gpg [198 B]
+1% [Waiting for headers] [Waiting for headers] [Waiting for headers] [1 Release                                                                               Hit http://archive.canonical.com natty Release.gpg
+2% [Waiting for headers] [Waiting for headers] [1 Release.gpg 0 B/198 B 0%] [Wa                                                                               Ign http://ar.archive.ubuntu.com natty InRelease
+2% [Waiting for headers] [Waiting for headers] [Waiting for headers] [1 Release                                                                               Ign http://ar.archive.ubuntu.com natty-security InRelease
+                                                                               Ign http://ar.archive.ubuntu.com natty-updates InRelease
+3% [Waiting for headers] [Waiting for headers] [Waiting for headers] [1 Release                                                                               Get:2 http://extras.ubuntu.com natty Release.gpg [72 B]
+27% [Waiting for headers] [Waiting for headers] [2 Release.gpg 72 B/72 B 100%] 28% [Waiting for headers] [Waiting for headers] [1 Release.gpg 0 B/198 B 0%] [W                                                                               Ign http://ar.archive.ubuntu.com natty-proposed InRelease
+28% [Waiting for headers] [Waiting for headers] [1 Release.gpg 0 B/198 B 0%] [W                                                                               Ign http://ar.archive.ubuntu.com natty-backports InRelease
+28% [Waiting for headers] [Waiting for headers] [Waiting for headers] [1 Releas                                                                               Hit http://archive.ubuntu.com natty Release.gpg
+28% [Waiting for headers] [Waiting for headers] [Waiting for headers] [1 Releas                                                                               Hit http://archive.canonical.com natty Release
+28% [Waiting for headers] [Waiting for headers] [1 Release.gpg 0 B/198 B 0%] [W                                                                               Get:3 http://ar.archive.ubuntu.com natty Release.gpg [198 B]
+                                                                               Get:4 http://ar.archive.ubuntu.com natty-security Release.gpg [198 B]
+69% [Waiting for headers] [Waiting for headers] [1 Release.gpg 0 B/198 B 0%] [W69% [Release gpgv 5.916 B] [Waiting for headers] [Waiting for headers] [1 Relea                                                                               Hit http://extras.ubuntu.com natty Release
+69% [Release gpgv 5.916 B] [Waiting for headers] [1 Release.gpg 0 B/198 B 0%] [                                                                               69% [Waiting for headers] [1 Release.gpg 0 B/198 B 0%] [Waiting for headers]                                                                            69% [Release gpgv 9.753 B] [Waiting for headers] [Waiting for headers] [1 Relea69% [Waiting for headers] [Waiting for headers] [1 Release.gpg 0 B/198 B 0%] [W
+ for pablo:                                                                                Hit http://archive.ubuntu.com natty Release
+69% [Waiting for headers] [Waiting for headers] [Waiting for headers] [1 Releas69% [Release gpgv 39,8 kB] [Waiting for headers] [Waiting for headers] [Waiting69% [Waiting for headers] [Waiting for headers] [Waiting for headers] [1 Releas                                                                               Get:5 http://ar.archive.ubuntu.com natty-updates Release.gpg [198 B]
+                                                                               Get:6 http://ar.archive.ubuntu.com natty-proposed Release.gpg [198 B]
+80% [Waiting for headers] [Waiting for headers] [Waiting for headers] [1 Releas                                                                               Get:7 http://archive.canonical.com natty/partner Sources [4.081 B]
+95% [Waiting for headers] [7 Sources 4.081 B/4.081 B 100%] [Waiting for headers95% [Waiting for headers] [Waiting for headers] [1 Release.gpg 0 B/198 B 0%] [W                                                                               Get:8 http://extras.ubuntu.com natty/main Sources [14 B]
+                                                                               95% [Waiting for headers] [1 Release.gpg 0 B/198 B 0%] [Waiting for headers]                                                                            95% [7 Sources bzip2 0 B] [Waiting for headers] [Waiting for headers] [Waiting 95% [Waiting for headers] [Waiting for headers] [Waiting for headers] [1 Releas95% [8 Sources bzip2 0 B] [Waiting for headers] [Waiting for headers] [Waiting 95% [Waiting for headers] [Waiting for headers] [Waiting for headers] [1 Releas99% [Waiting for headers] [Waiting for headers] [Waiting for headers] [Waiting 
+ for pablo:                                                                                Hit http://archive.ubuntu.com natty/main amd64 Packages
+99% [Waiting for headers] [Waiting for headers] [Waiting for headers] [Waiting                                                                                Get:9 http://ar.archive.ubuntu.com natty-backports Release.gpg [198 B]
+                                                                               Get:10 http://ar.archive.ubuntu.com natty Release [39,8 kB]
+27% [10 Release 6.980 B/39,8 kB 17%] [Waiting for headers] [Waiting for headers                                                                               Hit http://archive.canonical.com natty/partner amd64 Packages
+27% [10 Release 6.980 B/39,8 kB 17%] [Waiting for headers] [Waiting for headers                                                                               Ign http://archive.canonical.com natty/partner TranslationIndex
+27% [10 Release 6.980 B/39,8 kB 17%] [Waiting for headers] [Waiting for headers                                                                               Hit http://extras.ubuntu.com natty/main amd64 Packages
+27% [10 Release 6.980 B/39,8 kB 17%] [Waiting for headers] [Waiting for headers                                                                               Ign http://extras.ubuntu.com natty/main TranslationIndex
+27% [10 Release 6.980 B/39,8 kB 17%] [Waiting for headers] [Waiting for headers                                                                               Get:11 http://dl.google.com stable Release [1.347 B]
+26% [10 Release 6.980 B/39,8 kB 17%] [Waiting for headers] [Waiting for headers                                                                               Ign http://archive.ubuntu.com natty/main TranslationIndex
+67% [10 Release 25,8 kB/39,8 kB 64%] [Waiting for headers] [Waiting for headers97% [Waiting for headers] [Waiting for headers] [Waiting for headers] [11 Relea97% [10 Release gpgv 39,8 kB] [Waiting for headers] [Waiting for headers] [Wait                                                                               Get:12 http://ar.archive.ubuntu.com natty-security Release [39,8 kB]
+55% [10 Release gpgv 39,8 kB] [12 Release 3.156 B/39,8 kB 7%] [Waiting for head55% [12 Release 3.156 B/39,8 kB 7%] [Waiting for headers] [Waiting for headers]
+ for pablo: 84% [12 Release 26,3 kB/39,8 kB 66%] [Waiting for headers] [Waiting for headers84% [11 Release gpgv 1.347 B] [12 Release 26,3 kB/39,8 kB 66%] [Waiting for hea84% [12 Release 26,3 kB/39,8 kB 66%] [Waiting for headers] [Waiting for headers99% [Waiting for headers] [Waiting for headers] [Waiting for headers] [Waiting 99% [12 Release gpgv 39,8 kB] [Waiting for headers] [Waiting for headers] [Wait                                                                               Get:13 http://ar.archive.ubuntu.com natty-updates Release [39,8 kB]
+68% [12 Release gpgv 39,8 kB] [13 Release 0 B/39,8 kB 0%] [Waiting for headers]75% [13 Release 9.456 B/39,8 kB 23%] [Waiting for headers] [Waiting for headers                                                                               Hit http://archive.ubuntu.com natty/main Translation-es
+79% [13 Release 13,8 kB/39,8 kB 34%] [Waiting for headers] [Waiting for headers99% [Waiting for headers] [Waiting for headers] [Waiting for headers] [Waiting                                                                                Get:14 http://ar.archive.ubuntu.com natty-proposed Release [39,8 kB]
+77% [14 Release 2.726 B/39,8 kB 6%] [Waiting for headers] [Waiting for headers]77% [13 Release gpgv 39,8 kB] [14 Release 2.726 B/39,8 kB 6%] [Waiting for head77% [14 Release 2.726 B/39,8 kB 6%] [Waiting for headers] [Waiting for headers]
+ for pablo:                                                                                Get:15 http://dl.google.com stable/main amd64 Packages [765 B]
+82% [14 Release 9.966 B/39,8 kB 25%] [Waiting for headers] [Waiting for headers82% [14 Release 9.966 B/39,8 kB 25%] [Waiting for headers] [Waiting for headers82% [15 Packages bzip2 0 B] [14 Release 9.966 B/39,8 kB 25%] [Waiting for heade89% [14 Release 23,0 kB/39,8 kB 57%] [Waiting for headers] [Waiting for headers99% [Waiting for headers] [Waiting for headers] [Waiting for headers] [Waiting 99% [14 Release gpgv 39,8 kB] [Waiting for headers] [Waiting for headers] [Wait                                                                               Get:16 http://ar.archive.ubuntu.com natty-backports Release [39,8 kB]
+80% [14 Release gpgv 39,8 kB] [16 Release 0 B/39,8 kB 0%] [Waiting for headers]81% [16 Release 1.786 B/39,8 kB 4%] [Waiting for headers] [Waiting for headers]99% [Waiting for headers] [Waiting for headers] [Waiting for headers] [Waiting 99% [16 Release gpgv 39,8 kB] [Waiting for headers] [Waiting for headers] [Wait99% [Waiting for headers] [Waiting for headers] [Waiting for headers] [Waiting                                                                                Ign http://dl.google.com stable/main TranslationIndex
+99% [Waiting for headers] [Waiting for headers] [Waiting for headers] [Waiting                                                                                Get:17 http://ar.archive.ubuntu.com natty/main Sources [862 kB]
+19% [17 Sources 2.599 B/862 kB 0%] [Waiting for headers] [Waiting for headers] 
+ for pablo: 28% [17 Sources 98,2 kB/862 kB 11%] [Waiting for headers] [Waiting for headers]38% [17 Sources 210 kB/862 kB 24%] [Waiting for headers] [Waiting for headers] 
+ for pablo: 50% [17 Sources 337 kB/862 kB 39%] [Waiting for headers] [Waiting for headers] 56% [17 Sources 402 kB/862 kB 46%] [Waiting for headers] [Waiting for headers] 
+ for pablo: 71% [17 Sources 557 kB/862 kB 64%] [Waiting for headers] [Waiting for headers] 82% [17 Sources 670 kB/862 kB 77%] [Waiting for headers] [Waiting for headers]                                                                                Ign http://extras.ubuntu.com natty/main Translation-es_AR
+84% [17 Sources 699 kB/862 kB 81%] [Waiting for headers] [Waiting for headers]                                                                                Ign http://archive.canonical.com natty/partner Translation-es_AR
+84% [17 Sources 699 kB/862 kB 81%] [Waiting for headers] [Waiting for headers]                                                                                Ign http://archive.canonical.com natty/partner Translation-es
+84% [17 Sources 699 kB/862 kB 81%] [Waiting for headers] [Waiting for headers]                                                                                Ign http://extras.ubuntu.com natty/main Translation-es
+87% [17 Sources 729 kB/862 kB 84%] [Waiting for headers] [Waiting for headers]                                                                                Ign http://extras.ubuntu.com natty/main Translation-C
+87% [17 Sources 729 kB/862 kB 84%] [Waiting for headers] [Waiting for headers]                                                                                Ign http://archive.canonical.com natty/partner Translation-C
+90% [17 Sources 756 kB/862 kB 87%] [Waiting for headers] [Waiting for headers] 
+ for pablo:                                                                                Ign http://archive.canonical.com natty/partner Translation-en
+94% [17 Sources 803 kB/862 kB 93%] [Waiting for headers] [Waiting for headers]                                                                                Ign http://extras.ubuntu.com natty/main Translation-en
+                                                                               94% [17 Sources 803 kB/862 kB 93%] [Waiting for headers] [Waiting for headers]                                                                              99% [Waiting for headers] [Waiting for headers]                    33,7 kB/s 0s                                                                               Get:18 http://ar.archive.ubuntu.com natty/restricted Sources [4.104 B]
+99% [18 Sources 1.680 B/4.104 B 40%] [Waiting for headers] [Waiting for headers99% [17 Sources bzip2 0 B] [18 Sources 1.680 B/4.104 B 40%] [Waiting for header99% [17 Sources bzip2 0 B] [Waiting for headers] [Waiting for headers] [Waiting                                                                               Get:19 http://ar.archive.ubuntu.com natty/universe Sources [4.380 kB]
+19% [17 Sources bzip2 0 B] [19 Sources 4.517 B/4.380 kB 0%] [Waiting for header                                                                               Ign http://archive.ubuntu.com natty/main Translation-es_AR
+19% [17 Sources bzip2 0 B] [19 Sources 4.517 B/4.380 kB 0%] [Waiting for header
+ for pablo: 20% [19 Sources 38,8 kB/4.380 kB 0%] [Waiting for headers] [Waiting for headers20% [18 Sources bzip2 0 B] [19 Sources 38,8 kB/4.380 kB 0%] [Waiting for header20% [19 Sources 38,8 kB/4.380 kB 0%] [Waiting for headers] [Waiting for headers                                                                               Ign http://dl.google.com stable/main Translation-es_AR
+20% [19 Sources 38,8 kB/4.380 kB 0%] [Waiting for headers]    33,7 kB/s 2min 8s                                                                               Ign http://archive.ubuntu.com natty/main Translation-C
+21% [19 Sources 73,6 kB/4.380 kB 1%] [Waiting for headers]    33,7 kB/s 2min 7s                                                                               Ign http://dl.google.com stable/main Translation-es
+21% [19 Sources 73,6 kB/4.380 kB 1%] [Waiting for headers]    33,7 kB/s 2min 7s                                                                               Ign http://dl.google.com stable/main Translation-C
+21% [19 Sources 80,8 kB/4.380 kB 1%] [Waiting for headers]    33,7 kB/s 2min 7s                                                                               Ign http://archive.ubuntu.com natty/main Translation-en
+21% [19 Sources 118 kB/4.380 kB 2%] [Waiting for headers]     33,7 kB/s 2min 6s                                                                               Ign http://dl.google.com stable/main Translation-en
+21% [19 Sources 118 kB/4.380 kB 2%]                           33,7 kB/s 2min 6s
+ for pablo: 23% [19 Sources 208 kB/4.380 kB 4%]                           33,7 kB/s 2min 3s25% [19 Sources 314 kB/4.380 kB 7%]                                186 kB/s 21s
+ for pablo: 26% [19 Sources 375 kB/4.380 kB 8%]                                186 kB/s 21s28% [19 Sources 473 kB/4.380 kB 10%]                               186 kB/s 21s
+ for pablo: 30% [19 Sources 595 kB/4.380 kB 13%]                               186 kB/s 20s32% [19 Sources 709 kB/4.380 kB 16%]                               186 kB/s 19s
+ for pablo: 33% [19 Sources 774 kB/4.380 kB 17%]                               186 kB/s 19s35% [19 Sources 851 kB/4.380 kB 19%]                               186 kB/s 19s
+ for pablo: 36% [19 Sources 926 kB/4.380 kB 21%]                               186 kB/s 18s38% [19 Sources 1.006 kB/4.380 kB 22%]                             186 kB/s 18s
+ for pablo: 39% [19 Sources 1.071 kB/4.380 kB 24%]                             186 kB/s 17s40% [19 Sources 1.125 kB/4.380 kB 25%]                             186 kB/s 17s
+ for pablo: 41% [19 Sources 1.202 kB/4.380 kB 27%]                             186 kB/s 17s43% [19 Sources 1.297 kB/4.380 kB 29%]                             164 kB/s 18s
+ for pablo: 45% [19 Sources 1.397 kB/4.380 kB 31%]                             164 kB/s 18s46% [19 Sources 1.462 kB/4.380 kB 33%]                             164 kB/s 17s
+ for pablo: 48% [19 Sources 1.558 kB/4.380 kB 35%]                             164 kB/s 17s50% [19 Sources 1.665 kB/4.380 kB 38%]                             164 kB/s 16s
+ for pablo: 52% [19 Sources 1.776 kB/4.380 kB 40%]                             164 kB/s 15s53% [19 Sources 1.842 kB/4.380 kB 42%]                             164 kB/s 15s
+ for pablo: 55% [19 Sources 1.975 kB/4.380 kB 45%]                             164 kB/s 14s58% [19 Sources 2.120 kB/4.380 kB 48%]                             164 kB/s 13s
+ for pablo: 60% [19 Sources 2.244 kB/4.380 kB 51%]                             164 kB/s 13s62% [19 Sources 2.309 kB/4.380 kB 52%]                             164 kB/s 12s
+ for pablo: 64% [19 Sources 2.445 kB/4.380 kB 55%]                             164 kB/s 11s66% [19 Sources 2.574 kB/4.380 kB 58%]                              212 kB/s 8s
+ for pablo: 68% [19 Sources 2.655 kB/4.380 kB 60%]                              212 kB/s 8s70% [19 Sources 2.754 kB/4.380 kB 62%]                              212 kB/s 7s
+ for pablo: 72% [19 Sources 2.870 kB/4.380 kB 65%]                              212 kB/s 7s74% [19 Sources 2.993 kB/4.380 kB 68%]                              212 kB/s 6s
+ for pablo: 75% [19 Sources 3.055 kB/4.380 kB 69%]                              212 kB/s 6s78% [19 Sources 3.191 kB/4.380 kB 72%]                              212 kB/s 5s
+ for pablo: 80% [19 Sources 3.313 kB/4.380 kB 75%]                              212 kB/s 5s82% [19 Sources 3.424 kB/4.380 kB 78%]                              212 kB/s 4s
+ for pablo: 83% [19 Sources 3.469 kB/4.380 kB 79%]                              212 kB/s 4s85% [19 Sources 3.584 kB/4.380 kB 81%]                              212 kB/s 3s
+ for pablo: 87% [19 Sources 3.709 kB/4.380 kB 84%]                              212 kB/s 3s90% [19 Sources 3.847 kB/4.380 kB 87%]                              212 kB/s 2s
+ for pablo: 91% [19 Sources 3.934 kB/4.380 kB 89%]                              212 kB/s 2s93% [19 Sources 4.029 kB/4.380 kB 91%]                              212 kB/s 1s
+ for pablo: 95% [19 Sources 4.161 kB/4.380 kB 94%]                              212 kB/s 1s98% [19 Sources 4.293 kB/4.380 kB 98%]                              212 kB/s 0s
+ for pablo: 99% [Working]                                                       212 kB/s 0s                                                                               Get:20 http://ar.archive.ubuntu.com natty/multiverse Sources [155 kB]
+97% [20 Sources 0 B/155 kB 0%]                                      212 kB/s 0s97% [19 Sources bzip2 0 B] [20 Sources 9.305 B/155 kB 6%]           212 kB/s 0s98% [19 Sources bzip2 0 B] [20 Sources 84,7 kB/155 kB 54%]          212 kB/s 0s
+ for pablo:                                                                                Get:21 http://ar.archive.ubuntu.com natty/main amd64 Packages [1.550 kB]
+78% [19 Sources bzip2 0 B] [21 Packages 2.232 B/1.550 kB 0%]        212 kB/s 7s79% [19 Sources bzip2 0 B] [21 Packages 60,2 kB/1.550 kB 3%]        212 kB/s 7s
+ for pablo: 80% [19 Sources bzip2 0 B] [21 Packages 166 kB/1.550 kB 10%]        212 kB/s 6s80% [21 Packages 166 kB/1.550 kB 10%]                               212 kB/s 6s80% [20 Sources bzip2 0 B] [21 Packages 167 kB/1.550 kB 10%]        212 kB/s 6s81% [21 Packages 212 kB/1.550 kB 13%]                               212 kB/s 6s82% [21 Packages 293 kB/1.550 kB 18%]                               212 kB/s 5s
+ for pablo: 83% [21 Packages 379 kB/1.550 kB 24%]                               212 kB/s 5s84% [21 Packages 474 kB/1.550 kB 30%]                               187 kB/s 5s
+ for pablo: 85% [21 Packages 528 kB/1.550 kB 34%]                               187 kB/s 5s87% [21 Packages 638 kB/1.550 kB 41%]                               187 kB/s 4s
+ for pablo: 88% [21 Packages 758 kB/1.550 kB 48%]                               187 kB/s 4s90% [21 Packages 835 kB/1.550 kB 53%]                               187 kB/s 3s
+ for pablo: 91% [21 Packages 969 kB/1.550 kB 62%]                               187 kB/s 3s93% [21 Packages 1.100 kB/1.550 kB 70%]                             187 kB/s 2s
+ for pablo: 93% [21 Packages 1.100 kB/1.550 kB 70%]                             187 kB/s 2s94% [21 Packages 1.161 kB/1.550 kB 74%]                             187 kB/s 2s
+ for pablo: 94% [21 Packages 1.171 kB/1.550 kB 75%]                             187 kB/s 2s94% [21 Packages 1.178 kB/1.550 kB 76%]                             187 kB/s 1s
+ for pablo: 95% [21 Packages 1.197 kB/1.550 kB 77%]                             187 kB/s 1s95% [21 Packages 1.221 kB/1.550 kB 78%]                             124 kB/s 2s
+ for pablo: 95% [21 Packages 1.261 kB/1.550 kB 81%]                             124 kB/s 2s96% [21 Packages 1.316 kB/1.550 kB 84%]                             124 kB/s 1s
+ for pablo: 97% [21 Packages 1.347 kB/1.550 kB 86%]                             124 kB/s 1s98% [21 Packages 1.421 kB/1.550 kB 91%]                             124 kB/s 1s
+ for pablo: 99% [21 Packages 1.505 kB/1.550 kB 97%]                             124 kB/s 0s99% [Working]                                                       124 kB/s 0s                                                                               Get:22 http://ar.archive.ubuntu.com natty/restricted amd64 Packages [9.001 B]
+99% [22 Packages 0 B/9.001 B 0%]                                    124 kB/s 0s99% [21 Packages bzip2 0 B] [22 Packages 0 B/9.001 B 0%]            124 kB/s 0s                                                                               Get:23 http://ar.archive.ubuntu.com natty/universe amd64 Packages [6.004 kB]
+54% [21 Packages bzip2 0 B] [23 Packages 2.284 B/6.004 kB 0%]      124 kB/s 48s
+ for pablo: 54% [21 Packages bzip2 0 B] [23 Packages 42,8 kB/6.004 kB 0%]      124 kB/s 47s54% [23 Packages 42,8 kB/6.004 kB 0%]                              124 kB/s 47s54% [22 Packages bzip2 0 B] [23 Packages 42,8 kB/6.004 kB 0%]      124 kB/s 47s54% [23 Packages 42,8 kB/6.004 kB 0%]                              124 kB/s 47s55% [23 Packages 158 kB/6.004 kB 2%]                               124 kB/s 47s
+ for pablo: 56% [23 Packages 334 kB/6.004 kB 5%]                               124 kB/s 45s57% [23 Packages 433 kB/6.004 kB 7%]                               124 kB/s 44s
+ for pablo: 58% [23 Packages 491 kB/6.004 kB 8%]                               124 kB/s 44s59% [23 Packages 617 kB/6.004 kB 10%]                              157 kB/s 34s
+ for pablo: 60% [23 Packages 744 kB/6.004 kB 12%]                              157 kB/s 33s60% [23 Packages 845 kB/6.004 kB 14%]                              157 kB/s 32s
+ for pablo: 61% [23 Packages 958 kB/6.004 kB 15%]                              157 kB/s 32s62% [23 Packages 1.110 kB/6.004 kB 18%]                            157 kB/s 31s
+ for pablo: 63% [23 Packages 1.222 kB/6.004 kB 20%]                            157 kB/s 30s64% [23 Packages 1.313 kB/6.004 kB 21%]                            157 kB/s 29s
+ for pablo: 65% [23 Packages 1.432 kB/6.004 kB 23%]                            157 kB/s 29s66% [23 Packages 1.561 kB/6.004 kB 25%]                            157 kB/s 28s
+ for pablo: 67% [23 Packages 1.682 kB/6.004 kB 28%]                            157 kB/s 27s68% [23 Packages 1.811 kB/6.004 kB 30%]                            157 kB/s 26s
+ for pablo: 68% [23 Packages 1.878 kB/6.004 kB 31%]                            157 kB/s 26s69% [23 Packages 1.954 kB/6.004 kB 32%]                            223 kB/s 18s
+ for pablo: 70% [23 Packages 2.057 kB/6.004 kB 34%]                            223 kB/s 17s70% [23 Packages 2.147 kB/6.004 kB 35%]                            223 kB/s 17s
+ for pablo: 71% [23 Packages 2.235 kB/6.004 kB 37%]                            223 kB/s 16s71% [23 Packages 2.312 kB/6.004 kB 38%]                            223 kB/s 16s
+ for pablo: 72% [23 Packages 2.398 kB/6.004 kB 39%]                            223 kB/s 16s73% [23 Packages 2.464 kB/6.004 kB 41%]                            223 kB/s 15s
+ for pablo: 73% [23 Packages 2.534 kB/6.004 kB 42%]                            223 kB/s 15s74% [23 Packages 2.636 kB/6.004 kB 43%]                            223 kB/s 15s
+ for pablo: 75% [23 Packages 2.755 kB/6.004 kB 45%]                            223 kB/s 14s76% [23 Packages 2.880 kB/6.004 kB 47%]                            223 kB/s 14s
+ for pablo: 76% [23 Packages 2.945 kB/6.004 kB 49%]                            223 kB/s 13s77% [23 Packages 3.084 kB/6.004 kB 51%]                            188 kB/s 15s
+ for pablo: 78% [23 Packages 3.216 kB/6.004 kB 53%]                            188 kB/s 14s79% [23 Packages 3.307 kB/6.004 kB 55%]                            188 kB/s 14s
+ for pablo: 79% [23 Packages 3.356 kB/6.004 kB 55%]                            188 kB/s 14s80% [23 Packages 3.463 kB/6.004 kB 57%]                            188 kB/s 13s
+ for pablo: 81% [23 Packages 3.569 kB/6.004 kB 59%]                            188 kB/s 12s82% [23 Packages 3.678 kB/6.004 kB 61%]                            188 kB/s 12s
+ for pablo: 82% [23 Packages 3.750 kB/6.004 kB 62%]                            188 kB/s 11s83% [23 Packages 3.854 kB/6.004 kB 64%]                            188 kB/s 11s
+ for pablo: 84% [23 Packages 3.948 kB/6.004 kB 65%]                            188 kB/s 10s85% [23 Packages 4.031 kB/6.004 kB 67%]                            188 kB/s 10s
+ for pablo: 85% [23 Packages 4.122 kB/6.004 kB 68%]                            188 kB/s 10s86% [23 Packages 4.203 kB/6.004 kB 70%]                             186 kB/s 9s
+ for pablo: 86% [23 Packages 4.289 kB/6.004 kB 71%]                             186 kB/s 9s87% [23 Packages 4.364 kB/6.004 kB 72%]                             186 kB/s 8s
+ for pablo: 88% [23 Packages 4.444 kB/6.004 kB 74%]                             186 kB/s 8s88% [23 Packages 4.491 kB/6.004 kB 74%]                             186 kB/s 8s
+ for pablo: 89% [23 Packages 4.593 kB/6.004 kB 76%]                             186 kB/s 7s90% [23 Packages 4.691 kB/6.004 kB 78%]                             186 kB/s 7s
+ for pablo: 90% [23 Packages 4.780 kB/6.004 kB 79%]                             186 kB/s 6s91% [23 Packages 4.849 kB/6.004 kB 80%]                             186 kB/s 6s
+ for pablo: 92% [23 Packages 4.955 kB/6.004 kB 82%]                             186 kB/s 5s92% [23 Packages 5.053 kB/6.004 kB 84%]                             186 kB/s 5s
+ for pablo: 93% [23 Packages 5.123 kB/6.004 kB 85%]                             186 kB/s 4s94% [23 Packages 5.250 kB/6.004 kB 87%]                             174 kB/s 4s
+ for pablo: 95% [23 Packages 5.372 kB/6.004 kB 89%]                             174 kB/s 3s96% [23 Packages 5.488 kB/6.004 kB 91%]                             174 kB/s 2s
+ for pablo: 96% [23 Packages 5.557 kB/6.004 kB 92%]                             174 kB/s 2s97% [23 Packages 5.653 kB/6.004 kB 94%]                             174 kB/s 2s
+ for pablo: 98% [23 Packages 5.773 kB/6.004 kB 96%]                             174 kB/s 1s98% [23 Packages 5.835 kB/6.004 kB 97%]                             174 kB/s 0s
+ for pablo: 99% [23 Packages 5.967 kB/6.004 kB 99%]                             174 kB/s 0s99% [Waiting for headers]                                           174 kB/s 0s                                                                               Get:24 http://ar.archive.ubuntu.com natty/multiverse amd64 Packages [181 kB]
+98% [24 Packages 405 B/181 kB 0%]                                   174 kB/s 1s98% [23 Packages bzip2 0 B] [24 Packages 405 B/181 kB 0%]           174 kB/s 1s
+ for pablo: 99% [23 Packages bzip2 0 B] [24 Packages 93,1 kB/181 kB 51%]        174 kB/s 0s                                                                               Ign http://ar.archive.ubuntu.com natty/main TranslationIndex
+                                                                               Ign http://ar.archive.ubuntu.com natty/multiverse TranslationIndex
+99% [23 Packages bzip2 0 B]                                         174 kB/s 0s                                                                               Ign http://ar.archive.ubuntu.com natty/restricted TranslationIndex
+99% [23 Packages bzip2 0 B]                                         174 kB/s 0s                                                                               Ign http://ar.archive.ubuntu.com natty/universe TranslationIndex
+99% [23 Packages bzip2 0 B]                                         174 kB/s 0s                                                                               Get:25 http://ar.archive.ubuntu.com natty-security/main Sources [94,4 kB]
+99% [23 Packages bzip2 0 B] [25 Sources 0 B/94,4 kB 0%]             174 kB/s 0s
+ for pablo: 99% [23 Packages bzip2 0 B] [25 Sources 80,7 kB/94,4 kB 85%]        174 kB/s 0s                                                                               Get:26 http://ar.archive.ubuntu.com natty-security/restricted Sources [1.292 B]
+                                                                               Get:27 http://ar.archive.ubuntu.com natty-security/universe Sources [23,1 kB]
+99% [23 Packages bzip2 0 B] [27 Sources 3.219 B/23,1 kB 13%]        174 kB/s 0s99% [23 Packages bzip2 0 B]                                         174 kB/s 0s                                                                               Get:28 http://ar.archive.ubuntu.com natty-security/multiverse Sources [1.639 B]
+99% [23 Packages bzip2 0 B] [28 Sources 237 B/1.639 B 14%]          174 kB/s 0s99% [23 Packages bzip2 0 B] [Waiting for headers]                   174 kB/s 0s                                                                               Get:29 http://ar.archive.ubuntu.com natty-security/main amd64 Packages [285 kB]
+97% [23 Packages bzip2 0 B] [29 Packages 4.092 B/285 kB 1%]         174 kB/s 1s98% [23 Packages bzip2 0 B] [29 Packages 68,0 kB/285 kB 23%]        174 kB/s 1s
+ for pablo: 98% [23 Packages bzip2 0 B] [29 Packages 83,9 kB/285 kB 29%]        177 kB/s 1s99% [29 Packages 179 kB/285 kB 62%]                                 177 kB/s 0s99% [24 Packages bzip2 0 B] [29 Packages 179 kB/285 kB 62%]         177 kB/s 0s99% [29 Packages 201 kB/285 kB 70%]                                 177 kB/s 0s99% [25 Sources bzip2 0 B] [29 Packages 201 kB/285 kB 70%]          177 kB/s 0s99% [29 Packages 224 kB/285 kB 78%]                                 177 kB/s 0s99% [26 Sources bzip2 0 B] [29 Packages 224 kB/285 kB 78%]          177 kB/s 0s99% [29 Packages 224 kB/285 kB 78%]                                 177 kB/s 0s99% [27 Sources bzip2 0 B] [29 Packages 224 kB/285 kB 78%]          177 kB/s 0s99% [29 Packages 224 kB/285 kB 78%]                                 177 kB/s 0s99% [28 Sources bzip2 0 B] [29 Packages 224 kB/285 kB 78%]          177 kB/s 0s99% [29 Packages 224 kB/285 kB 78%]                                 177 kB/s 0s
+ for pablo: 99% [Waiting for headers]                                           177 kB/s 0s                                                                               Get:30 http://ar.archive.ubuntu.com natty-security/restricted amd64 Packages [4.790 B]
+                                                                               Get:31 http://ar.archive.ubuntu.com natty-security/universe amd64 Packages [78,3 kB]
+99% [31 Packages 149 B/78,3 kB 0%]                                  177 kB/s 0s99% [29 Packages bzip2 0 B] [31 Packages 149 B/78,3 kB 0%]          177 kB/s 0s99% [31 Packages 39,8 kB/78,3 kB 50%]                               177 kB/s 0s99% [30 Packages bzip2 0 B] [31 Packages 39,8 kB/78,3 kB 50%]       177 kB/s 0s99% [31 Packages 39,8 kB/78,3 kB 50%]                               177 kB/s 0s99% [Waiting for headers]                                           177 kB/s 0s                                                                               Get:32 http://ar.archive.ubuntu.com natty-security/multiverse amd64 Packages [3.572 B]
+99% [32 Packages 1.776 B/3.572 B 49%]                               177 kB/s 0s99% [31 Packages bzip2 0 B] [32 Packages 1.776 B/3.572 B 49%]       177 kB/s 0s99% [31 Packages bzip2 0 B]                                         177 kB/s 0s                                                                               Ign http://ar.archive.ubuntu.com natty-security/main TranslationIndex
+99% [31 Packages bzip2 0 B]                                         177 kB/s 0s                                                                               Ign http://ar.archive.ubuntu.com natty-security/multiverse TranslationIndex
+99% [31 Packages bzip2 0 B]                                         177 kB/s 0s                                                                               Ign http://ar.archive.ubuntu.com natty-security/restricted TranslationIndex
+99% [31 Packages bzip2 0 B]                                         177 kB/s 0s                                                                               Ign http://ar.archive.ubuntu.com natty-security/universe TranslationIndex
+99% [31 Packages bzip2 0 B]                                         177 kB/s 0s                                                                               Get:33 http://ar.archive.ubuntu.com natty-updates/main Sources [157 kB]
+98% [31 Packages bzip2 0 B] [33 Sources 0 B/157 kB 0%]              177 kB/s 0s98% [33 Sources 16,0 kB/157 kB 10%]                                 177 kB/s 0s98% [32 Packages bzip2 0 B] [33 Sources 16,0 kB/157 kB 10%]         177 kB/s 0s98% [33 Sources 16,0 kB/157 kB 10%]                                 177 kB/s 0s
+ for pablo: 99% [33 Sources 95,2 kB/157 kB 60%]                                 177 kB/s 0s99% [Working]                                                       177 kB/s 0s                                                                               Get:34 http://ar.archive.ubuntu.com natty-updates/restricted Sources [1.749 B]
+99% [34 Sources 0 B/1.749 B 0%]                                     177 kB/s 0s99% [Working]                                                       177 kB/s 0s                                                                               Get:35 http://ar.archive.ubuntu.com natty-updates/universe Sources [42,9 kB]
+99% [33 Sources bzip2 0 B] [35 Sources 0 B/42,9 kB 0%]              177 kB/s 0s99% [35 Sources 3.562 B/42,9 kB 8%]                                 177 kB/s 0s99% [34 Sources bzip2 0 B] [35 Sources 3.562 B/42,9 kB 8%]          177 kB/s 0s99% [35 Sources 3.562 B/42,9 kB 8%]                                 177 kB/s 0s99% [Working]                                                       177 kB/s 0s                                                                               Get:36 http://ar.archive.ubuntu.com natty-updates/multiverse Sources [3.109 B]
+99% [36 Sources 0 B/3.109 B 0%]                                     177 kB/s 0s99% [35 Sources bzip2 0 B] [36 Sources 3.109 B/3.109 B 100%]        177 kB/s 0s99% [35 Sources bzip2 0 B]                                          177 kB/s 0s                                                                               Get:37 http://ar.archive.ubuntu.com natty-updates/main amd64 Packages [442 kB]
+96% [35 Sources bzip2 0 B] [37 Packages 0 B/442 kB 0%]              177 kB/s 2s
+ for pablo: 96% [37 Packages 3.293 B/442 kB 0%]                                 177 kB/s 2s96% [36 Sources bzip2 0 B] [37 Packages 3.293 B/442 kB 0%]          177 kB/s 2s96% [37 Packages 3.293 B/442 kB 0%]                                 177 kB/s 2s97% [37 Packages 63,4 kB/442 kB 14%]                                177 kB/s 2s
+ for pablo: 97% [37 Packages 123 kB/442 kB 27%]                                 177 kB/s 1s98% [37 Packages 204 kB/442 kB 46%]                                 177 kB/s 1s
+ for pablo: 98% [37 Packages 294 kB/442 kB 66%]                                 177 kB/s 0s99% [37 Packages 369 kB/442 kB 83%]                                 177 kB/s 0s99% [Working]                                                       177 kB/s 0s                                                                               Get:38 http://ar.archive.ubuntu.com natty-updates/restricted amd64 Packages [5.228 B]
+99% [38 Packages 0 B/5.228 B 0%]                                    177 kB/s 0s99% [37 Packages bzip2 0 B]                                         177 kB/s 0s                                                                               Get:39 http://ar.archive.ubuntu.com natty-updates/universe amd64 Packages [141 kB]
+99% [37 Packages bzip2 0 B] [39 Packages 0 B/141 kB 0%]             177 kB/s 0s
+ for pablo: 99% [39 Packages 130 kB/141 kB 92%]                                 177 kB/s 0s99% [38 Packages bzip2 0 B] [39 Packages 130 kB/141 kB 92%]         177 kB/s 0s99% [39 Packages 130 kB/141 kB 92%]                                 177 kB/s 0s                                                                               Get:40 http://ar.archive.ubuntu.com natty-updates/multiverse amd64 Packages [6.360 B]
+99% [40 Packages 3.265 B/6.360 B 51%]                               177 kB/s 0s99% [Working]                                                       177 kB/s 0s                                                                               Ign http://ar.archive.ubuntu.com natty-updates/main TranslationIndex
+99% [Working]                                                       177 kB/s 0s                                                                               Ign http://ar.archive.ubuntu.com natty-updates/multiverse TranslationIndex
+99% [Working]                                                       177 kB/s 0s99% [39 Packages bzip2 0 B] [Waiting for headers]                   177 kB/s 0s                                                                               Ign http://ar.archive.ubuntu.com natty-updates/restricted TranslationIndex
+                                                                               Ign http://ar.archive.ubuntu.com natty-updates/universe TranslationIndex
+                                                                               Get:41 http://ar.archive.ubuntu.com natty-proposed/main Sources [56,0 kB]
+99% [39 Packages bzip2 0 B] [41 Sources 3.089 B/56,0 kB 5%]         177 kB/s 0s99% [41 Sources 35,7 kB/56,0 kB 63%]                                177 kB/s 0s99% [40 Packages bzip2 0 B] [41 Sources 35,7 kB/56,0 kB 63%]        177 kB/s 0s99% [41 Sources 35,7 kB/56,0 kB 63%]                                177 kB/s 0s99% [Working]                                                       177 kB/s 0s99% [41 Sources bzip2 0 B]                                          177 kB/s 0s                                                                               Get:42 http://ar.archive.ubuntu.com natty-proposed/restricted Sources [796 B]
+99% [41 Sources bzip2 0 B] [42 Sources 0 B/796 B 0%]                177 kB/s 0s99% [41 Sources bzip2 0 B]                                          177 kB/s 0s                                                                               Get:43 http://ar.archive.ubuntu.com natty-proposed/universe Sources [15,7 kB]
+                                                                               Get:44 http://ar.archive.ubuntu.com natty-proposed/multiverse Sources [863 B]
+99% [41 Sources bzip2 0 B] [Waiting for headers]                    177 kB/s 0s
+ for pablo: 99% [Waiting for headers]                                           177 kB/s 0s99% [42 Sources bzip2 0 B] [Waiting for headers]                    177 kB/s 0s99% [Waiting for headers]                                           177 kB/s 0s99% [43 Sources bzip2 0 B] [Waiting for headers]                    177 kB/s 0s99% [Waiting for headers]                                           177 kB/s 0s99% [44 Sources bzip2 0 B] [Waiting for headers]                    177 kB/s 0s99% [Waiting for headers]                                           177 kB/s 0s                                                                               Get:45 http://ar.archive.ubuntu.com natty-proposed/main amd64 Packages [123 kB]
+99% [45 Packages 0 B/123 kB 0%]                                     177 kB/s 0s99% [45 Packages 88,0 kB/123 kB 71%]                                177 kB/s 0s99% [Working]                                                       177 kB/s 0s                                                                               Get:46 http://ar.archive.ubuntu.com natty-proposed/restricted amd64 Packages [2.476 B]
+99% [46 Packages 2.476 B/2.476 B 100%]                              177 kB/s 0s                                                                               Get:47 http://ar.archive.ubuntu.com natty-proposed/universe amd64 Packages [29,3 kB]
+99% [45 Packages bzip2 0 B] [47 Packages 8.330 B/29,3 kB 28%]       177 kB/s 0s99% [47 Packages 8.330 B/29,3 kB 28%]                               177 kB/s 0s99% [46 Packages bzip2 0 B] [47 Packages 8.330 B/29,3 kB 28%]       177 kB/s 0s99% [47 Packages 8.330 B/29,3 kB 28%]                               177 kB/s 0s
+ for pablo: 99% [Working]                                                       177 kB/s 0s99% [47 Packages bzip2 0 B] [Waiting for headers]                   177 kB/s 0s                                                                               Get:48 http://ar.archive.ubuntu.com natty-proposed/multiverse amd64 Packages [1.300 B]
+99% [47 Packages bzip2 0 B] [48 Packages 0 B/1.300 B 0%]            177 kB/s 0s99% [47 Packages bzip2 0 B]                                         177 kB/s 0s                                                                               Ign http://ar.archive.ubuntu.com natty-proposed/main TranslationIndex
+99% [47 Packages bzip2 0 B]                                         177 kB/s 0s                                                                               Ign http://ar.archive.ubuntu.com natty-proposed/multiverse TranslationIndex
+99% [47 Packages bzip2 0 B]                                         177 kB/s 0s                                                                               Ign http://ar.archive.ubuntu.com natty-proposed/restricted TranslationIndex
+99% [47 Packages bzip2 0 B]                                         177 kB/s 0s                                                                               Ign http://ar.archive.ubuntu.com natty-proposed/universe TranslationIndex
+99% [47 Packages bzip2 0 B]                                         177 kB/s 0s                                                                               Get:49 http://ar.archive.ubuntu.com natty-backports/main Sources [3.635 B]
+99% [47 Packages bzip2 0 B] [49 Sources 0 B/3.635 B 0%]             177 kB/s 0s99% [47 Packages bzip2 0 B]                                         177 kB/s 0s                                                                               Get:50 http://ar.archive.ubuntu.com natty-backports/restricted Sources [14 B]
+99% [47 Packages bzip2 0 B] [50 Sources 0 B/14 B 0%]                177 kB/s 0s99% [47 Packages bzip2 0 B]                                         177 kB/s 0s99% [Waiting for headers]                                           177 kB/s 0s99% [48 Packages bzip2 0 B] [Waiting for headers]                   177 kB/s 0s99% [Waiting for headers]                                           177 kB/s 0s99% [49 Sources bzip2 0 B] [Waiting for headers]                    177 kB/s 0s99% [Waiting for headers]                                           177 kB/s 0s99% [50 Sources bzip2 0 B] [Waiting for headers]                    177 kB/s 0s99% [Waiting for headers]                                           177 kB/s 0s                                                                               Get:51 http://ar.archive.ubuntu.com natty-backports/universe Sources [12,7 kB]
+99% [51 Sources 4.048 B/12,7 kB 31%]                                177 kB/s 0s99% [Working]                                                       177 kB/s 0s99% [51 Sources bzip2 0 B] [Waiting for headers]                    177 kB/s 0s99% [Waiting for headers]                                           177 kB/s 0s                                                                               Get:52 http://ar.archive.ubuntu.com natty-backports/multiverse Sources [1.342 B]
+                                                                               Get:53 http://ar.archive.ubuntu.com natty-backports/main amd64 Packages [5.730 B]
+99% [53 Packages 2.413 B/5.730 B 42%]                               177 kB/s 0s99% [52 Sources bzip2 0 B] [53 Packages 3.861 B/5.730 B 67%]        177 kB/s 0s                                                                               Get:54 http://ar.archive.ubuntu.com natty-backports/restricted amd64 Packages [14 B]
+                                                                               Get:55 http://ar.archive.ubuntu.com natty-backports/universe amd64 Packages [25,3 kB]
+99% [52 Sources bzip2 0 B] [55 Packages 3.323 B/25,3 kB 13%]        177 kB/s 0s99% [55 Packages 9.115 B/25,3 kB 35%]                               177 kB/s 0s99% [53 Packages bzip2 0 B] [55 Packages 9.115 B/25,3 kB 35%]       177 kB/s 0s99% [55 Packages 9.115 B/25,3 kB 35%]                               177 kB/s 0s99% [54 Packages bzip2 0 B] [55 Packages 9.115 B/25,3 kB 35%]       177 kB/s 0s99% [55 Packages 9.115 B/25,3 kB 35%]                               177 kB/s 0s99% [Working]                                                       177 kB/s 0s                                                                               Get:56 http://ar.archive.ubuntu.com natty-backports/multiverse amd64 Packages [1.473 B]
+99% [56 Packages 1.103 B/1.473 B 74%]                               177 kB/s 0s                                                                               Ign http://ar.archive.ubuntu.com natty-backports/main TranslationIndex
+                                                                               Ign http://ar.archive.ubuntu.com natty-backports/multiverse TranslationIndex
+                                                                               Ign http://ar.archive.ubuntu.com natty-backports/restricted TranslationIndex
+                                                                               Ign http://ar.archive.ubuntu.com natty-backports/universe TranslationIndex
+99% [55 Packages bzip2 0 B]                                         177 kB/s 0s99% [Waiting for headers]                                           177 kB/s 0s99% [56 Packages bzip2 0 B] [Waiting for headers]                   177 kB/s 0s99% [Waiting for headers]                                           177 kB/s 0s                                                                               Get:57 http://ar.archive.ubuntu.com natty/main Translation-es [675 kB]
+95% [57 Translation-es 8.391 B/675 kB 1%]                           177 kB/s 3s
+ for pablo: 96% [57 Translation-es 57,6 kB/675 kB 8%]                           177 kB/s 3s96% [57 Translation-es 113 kB/675 kB 16%]                           177 kB/s 3s
+ for pablo: 96% [57 Translation-es 204 kB/675 kB 30%]                           177 kB/s 2s97% [57 Translation-es 301 kB/675 kB 44%]                           177 kB/s 2s
+ for pablo: 97% [57 Translation-es 354 kB/675 kB 52%]                           177 kB/s 1s98% [57 Translation-es 462 kB/675 kB 68%]                           177 kB/s 1s
+ for pablo: 99% [57 Translation-es 570 kB/675 kB 84%]                           143 kB/s 0s99% [Waiting for headers]                                           143 kB/s 0s99% [57 Translation-es bzip2 0 B] [Waiting for headers]             143 kB/s 0s                                                                               Get:58 http://ar.archive.ubuntu.com natty/multiverse Translation-es [99,3 kB]
+                                                                               99% [57 Translation-es bzip2 0 B] [58 Translation-es 0 B/99,3 kB 0%]
+ for pablo:                                                                     99% [58 Translation-es 55,6 kB/99,3 kB 56%]                         143 kB/s 0s99% [Working]                                                       143 kB/s 0s99% [58 Translation-es bzip2 0 B]                                   143 kB/s 0s                                                                               Get:59 http://ar.archive.ubuntu.com natty/restricted Translation-es [2.542 B]
+                                                                               99% [58 Translation-es bzip2 0 B] [59 Translation-es 0 B/2.542 B 0%]                                                                    99% [58 Translation-es bzip2 0 B]                                   143 kB/s 0s99% [Working]                                                       143 kB/s 0s99% [59 Translation-es bzip2 0 B]                                   143 kB/s 0s99% [Working]                                                       143 kB/s 0s                                                                               Get:60 http://ar.archive.ubuntu.com natty/universe Translation-es [1.277 kB]
+92% [60 Translation-es 1.965 B/1.277 kB 0%]                         143 kB/s 8s
+ for pablo: 93% [60 Translation-es 104 kB/1.277 kB 8%]                          143 kB/s 8s93% [60 Translation-es 204 kB/1.277 kB 15%]                         143 kB/s 7s
+ for pablo: 94% [60 Translation-es 302 kB/1.277 kB 23%]                         143 kB/s 6s94% [60 Translation-es 370 kB/1.277 kB 28%]                         143 kB/s 6s
+ for pablo: 95% [60 Translation-es 450 kB/1.277 kB 35%]                         143 kB/s 5s95% [60 Translation-es 544 kB/1.277 kB 42%]                         143 kB/s 5s
+ for pablo: 96% [60 Translation-es 619 kB/1.277 kB 48%]                         143 kB/s 4s96% [60 Translation-es 687 kB/1.277 kB 53%]                         143 kB/s 4s
+ for pablo: 97% [60 Translation-es 773 kB/1.277 kB 60%]                         143 kB/s 3s97% [60 Translation-es 873 kB/1.277 kB 68%]                         170 kB/s 2s
+ for pablo: 98% [60 Translation-es 962 kB/1.277 kB 75%]                         170 kB/s 1s98% [60 Translation-es 1.006 kB/1.277 kB 78%]                       170 kB/s 1s
+ for pablo: 98% [60 Translation-es 1.101 kB/1.277 kB 86%]                       170 kB/s 1s99% [60 Translation-es 1.217 kB/1.277 kB 95%]                       170 kB/s 0s
+ for pablo: 99% [Working]                                                       170 kB/s 0s99% [60 Translation-es bzip2 0 B]                                   170 kB/s 0s99% [60 Translation-es bzip2 0 B] [Waiting for headers]             170 kB/s 0s99% [Connecting to ar.archive.ubuntu.com (200.236.31.4)]            170 kB/s 0s
+ for pablo: 99% [Waiting for headers]                                           170 kB/s 0s99% [Waiting for headers]                                           170 kB/s 0s
+ for pablo: 99% [Waiting for headers]                                           170 kB/s 0s99% [Waiting for headers]                                           170 kB/s 0s
+ for pablo: 99% [Waiting for headers]                                           170 kB/s 0s99% [Waiting for headers]                                           170 kB/s 0s
+ for pablo: 99% [Waiting for headers]                                          62,3 kB/s 0s99% [Waiting for headers]                                          62,3 kB/s 0s
+ for pablo: 99% [Waiting for headers]                                          62,3 kB/s 0s99% [Waiting for headers]                                          62,3 kB/s 0s
+ for pablo: 99% [Waiting for headers]                                          62,3 kB/s 0s99% [Waiting for headers]                                          62,3 kB/s 0s
+ for pablo: 99% [Waiting for headers]                                          62,3 kB/s 0s99% [Waiting for headers]                                          62,3 kB/s 0s
+ for pablo: 99% [Waiting for headers]                                          62,3 kB/s 0s99% [Waiting for headers]                                          62,3 kB/s 0s
+ for pablo: 99% [Waiting for headers]                                          62,3 kB/s 0s99% [Waiting for headers]                                          62,3 kB/s 0s
+ for pablo:                                                                                99% [Waiting for headers]99% [Waiting for headers]
+ for pablo: 99% [Waiting for headers]99% [Waiting for headers]
+ for pablo: 99% [Waiting for headers]99% [Waiting for headers]
+ for pablo: 99% [Waiting for headers]99% [Waiting for headers]
+ for pablo: 99% [Waiting for headers]99% [Waiting for headers]
+ for pablo: 99% [Waiting for headers]99% [Waiting for headers]
+ for pablo: 99% [Waiting for headers]                         99% [Connecting to ar.archive.ubuntu.com (200.236.31.4)]
+ for pablo: 99% [Connecting to ar.archive.ubuntu.com (200.236.31.4)]                                                        99% [Waiting for headers]
+ for pablo: 99% [Waiting for headers]99% [Waiting for headers]
+ for pablo: 99% [Waiting for headers]99% [Waiting for headers]
+ for pablo: 99% [Waiting for headers]99% [Waiting for headers]
+ for pablo: 99% [Waiting for headers]99% [Waiting for headers]
+ for pablo: 99% [Waiting for headers]99% [Waiting for headers]
+ for pablo: 99% [Waiting for headers]                         Ign http://ar.archive.ubuntu.com natty/main Translation-es_AR
+                         99% [Working]             Ign http://ar.archive.ubuntu.com natty/main Translation-C
+99% [Working]
+ for pablo:              Ign http://ar.archive.ubuntu.com natty/main Translation-en
+99% [Working]             Ign http://ar.archive.ubuntu.com natty/multiverse Translation-es_AR
+             99% [Waiting for headers]                         Ign http://ar.archive.ubuntu.com natty/multiverse Translation-C
+                         Ign http://ar.archive.ubuntu.com natty/multiverse Translation-en
+                         99% [Working]             Ign http://ar.archive.ubuntu.com natty/restricted Translation-es_AR
+99% [Working]             Ign http://ar.archive.ubuntu.com natty/restricted Translation-C
+99% [Working]             Ign http://ar.archive.ubuntu.com natty/restricted Translation-en
+             99% [Waiting for headers]                         Ign http://ar.archive.ubuntu.com natty/universe Translation-es_AR
+                         Ign http://ar.archive.ubuntu.com natty/universe Translation-C
+                         Ign http://ar.archive.ubuntu.com natty/universe Translation-en
+99% [Waiting for headers]
+ for pablo:                          Ign http://ar.archive.ubuntu.com natty-security/main Translation-es_AR
+                         99% [Working]             Ign http://ar.archive.ubuntu.com natty-security/main Translation-es
+99% [Working]             Ign http://ar.archive.ubuntu.com natty-security/main Translation-C
+99% [Working]             Ign http://ar.archive.ubuntu.com natty-security/main Translation-en
+             Ign http://ar.archive.ubuntu.com natty-security/multiverse Translation-es_AR
+             Ign http://ar.archive.ubuntu.com natty-security/multiverse Translation-es
+             99% [Waiting for headers]                         Ign http://ar.archive.ubuntu.com natty-security/multiverse Translation-C
+                         99% [Working]             Ign http://ar.archive.ubuntu.com natty-security/multiverse Translation-en
+99% [Working]             99% [Waiting for headers]                         Ign http://ar.archive.ubuntu.com natty-security/restricted Translation-es_AR
+                         99% [Working]             Ign http://ar.archive.ubuntu.com natty-security/restricted Translation-es
+99% [Working]             Ign http://ar.archive.ubuntu.com natty-security/restricted Translation-C
+99% [Working]
+ for pablo:              Ign http://ar.archive.ubuntu.com natty-security/restricted Translation-en
+99% [Working]             Ign http://ar.archive.ubuntu.com natty-security/universe Translation-es_AR
+99% [Working]             Ign http://ar.archive.ubuntu.com natty-security/universe Translation-es
+99% [Working]             Ign http://ar.archive.ubuntu.com natty-security/universe Translation-C
+99% [Working]             Ign http://ar.archive.ubuntu.com natty-security/universe Translation-en
+99% [Working]             Ign http://ar.archive.ubuntu.com natty-updates/main Translation-es_AR
+99% [Working]             Ign http://ar.archive.ubuntu.com natty-updates/main Translation-es
+99% [Working]             Ign http://ar.archive.ubuntu.com natty-updates/main Translation-C
+99% [Working]             Ign http://ar.archive.ubuntu.com natty-updates/main Translation-en
+             99% [Waiting for headers]                         Ign http://ar.archive.ubuntu.com natty-updates/multiverse Translation-es_AR
+                         99% [Working]             99% [Waiting for headers]                         Ign http://ar.archive.ubuntu.com natty-updates/multiverse Translation-es
+                         99% [Working]             Ign http://ar.archive.ubuntu.com natty-updates/multiverse Translation-C
+99% [Working]             Ign http://ar.archive.ubuntu.com natty-updates/multiverse Translation-en
+             Ign http://ar.archive.ubuntu.com natty-updates/restricted Translation-es_AR
+             Ign http://ar.archive.ubuntu.com natty-updates/restricted Translation-es
+             Ign http://ar.archive.ubuntu.com natty-updates/restricted Translation-C
+             Ign http://ar.archive.ubuntu.com natty-updates/restricted Translation-en
+             99% [Waiting for headers]
+ for pablo: 99% [Waiting for headers]                         Ign http://ar.archive.ubuntu.com natty-updates/universe Translation-es_AR
+                         99% [Working]             Ign http://ar.archive.ubuntu.com natty-updates/universe Translation-es
+99% [Working]             Ign http://ar.archive.ubuntu.com natty-updates/universe Translation-C
+99% [Working]             99% [Waiting for headers]                         Ign http://ar.archive.ubuntu.com natty-updates/universe Translation-en
+                         99% [Working]             Ign http://ar.archive.ubuntu.com natty-proposed/main Translation-es_AR
+99% [Working]             Ign http://ar.archive.ubuntu.com natty-proposed/main Translation-es
+99% [Working]             Ign http://ar.archive.ubuntu.com natty-proposed/main Translation-C
+99% [Working]             Ign http://ar.archive.ubuntu.com natty-proposed/main Translation-en
+99% [Working]             Ign http://ar.archive.ubuntu.com natty-proposed/multiverse Translation-es_AR
+99% [Working]             Ign http://ar.archive.ubuntu.com natty-proposed/multiverse Translation-es
+99% [Working]
+ for pablo:              Ign http://ar.archive.ubuntu.com natty-proposed/multiverse Translation-C
+99% [Working]             Ign http://ar.archive.ubuntu.com natty-proposed/multiverse Translation-en
+             99% [Waiting for headers]                         Ign http://ar.archive.ubuntu.com natty-proposed/restricted Translation-es_AR
+                         99% [Working]             Ign http://ar.archive.ubuntu.com natty-proposed/restricted Translation-es
+99% [Working]             Ign http://ar.archive.ubuntu.com natty-proposed/restricted Translation-C
+99% [Working]             Ign http://ar.archive.ubuntu.com natty-proposed/restricted Translation-en
+99% [Working]             Ign http://ar.archive.ubuntu.com natty-proposed/universe Translation-es_AR
+             Ign http://ar.archive.ubuntu.com natty-proposed/universe Translation-es
+             Ign http://ar.archive.ubuntu.com natty-proposed/universe Translation-C
+             Ign http://ar.archive.ubuntu.com natty-proposed/universe Translation-en
+             99% [Waiting for headers]
+ for pablo: 99% [Waiting for headers]                         Ign http://ar.archive.ubuntu.com natty-backports/main Translation-es_AR
+                         Ign http://ar.archive.ubuntu.com natty-backports/main Translation-es
+                         Ign http://ar.archive.ubuntu.com natty-backports/main Translation-C
+99% [Waiting for headers]                         Ign http://ar.archive.ubuntu.com natty-backports/main Translation-en
+                         99% [Working]             Ign http://ar.archive.ubuntu.com natty-backports/multiverse Translation-es_AR
+99% [Working]             Ign http://ar.archive.ubuntu.com natty-backports/multiverse Translation-es
+             Ign http://ar.archive.ubuntu.com natty-backports/multiverse Translation-C
+             Ign http://ar.archive.ubuntu.com natty-backports/multiverse Translation-en
+             Ign http://ar.archive.ubuntu.com natty-backports/restricted Translation-es_AR
+             Ign http://ar.archive.ubuntu.com natty-backports/restricted Translation-es
+             99% [Waiting for headers]                         Ign http://ar.archive.ubuntu.com natty-backports/restricted Translation-C
+99% [Waiting for headers]                         Ign http://ar.archive.ubuntu.com natty-backports/restricted Translation-en
+99% [Waiting for headers]                         Ign http://ar.archive.ubuntu.com natty-backports/universe Translation-es_AR
+                         99% [Working]             Ign http://ar.archive.ubuntu.com natty-backports/universe Translation-es
+99% [Working]             Ign http://ar.archive.ubuntu.com natty-backports/universe Translation-C
+99% [Working]             Ign http://ar.archive.ubuntu.com natty-backports/universe Translation-en
+             100% [Working]              Fetched 17,0 MB in 2min 9s (131 kB/s)
+
+ for pablo: 
+ for pablo: Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 13%Reading package lists... 13%Reading package lists... 13%Reading package lists... 13%
+hplip-install[22390]: info: :
+error: Aborted.
