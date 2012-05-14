@@ -499,8 +499,17 @@ margin-bottom: 20px;
 .jta-tweet-list {
   height: 445px;
   overflow: auto;
+  margin-left: 10px;
 }
 .seguinos-home .jta-tweet-list {
   height: 480px;
+}
+.jta-tweet-list-item {
+  width: 270px;
+  background-color: #F2F2F2;
+  font-size: 0.85em;
+}
+.jta-nodata, .jta-error, .jta-loading {
+  font-size: 0.7em;
 }
 
