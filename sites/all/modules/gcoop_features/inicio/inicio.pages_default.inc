@@ -16,7 +16,10 @@ function inicio_default_page_manager_pages() {
   $page->admin_title = 'Inicio';
   $page->admin_description = '';
   $page->path = 'inicio';
-  $page->access = array();
+  $page->access = array(
+    'type' => 'none',
+    'settings' => NULL,
+  );
   $page->menu = array();
   $page->arguments = array();
   $page->conf = array(
@@ -136,16 +139,13 @@ function inicio_default_page_manager_pages() {
     $pane = new stdClass();
     $pane->pid = 'new-3';
     $pane->panel = 'main';
-    $pane->type = 'custom';
-    $pane->subtype = 'custom';
+    $pane->type = 'block';
+    $pane->subtype = 'block-4';
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
-      'admin_title' => 'seguinos-home',
-      'title' => '<span class="titulosbloques">[Seguinos]</span>',
-      'body' => 'lalalalala',
-      'format' => 'full_html',
-      'substitute' => TRUE,
+      'override_title' => 1,
+      'override_title_text' => '<span class="titulosbloques">[Seguinos]</span>',
     );
     $pane->cache = array();
     $pane->style = array(

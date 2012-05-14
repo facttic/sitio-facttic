@@ -836,7 +836,7 @@ function cooperativa_views_default_views() {
   $handler->display->display_options['fields']['field_twitter']['field'] = 'field_twitter';
   $handler->display->display_options['fields']['field_twitter']['label'] = '';
   $handler->display->display_options['fields']['field_twitter']['alter']['alter_text'] = 1;
-  $handler->display->display_options['fields']['field_twitter']['alter']['text'] = '<a class="logotwitter logosrs" title="Twitter [title]" href="[field_twitter-value]"></a>';
+  $handler->display->display_options['fields']['field_twitter']['alter']['text'] = '<a class="logotwitter logosrs" title="Twitter [title]" href="https://twitter.com/[field_twitter-value]"></a>';
   $handler->display->display_options['fields']['field_twitter']['alter']['make_link'] = 0;
   $handler->display->display_options['fields']['field_twitter']['alter']['path'] = '[field_twitter]';
   $handler->display->display_options['fields']['field_twitter']['alter']['absolute'] = 0;
@@ -962,7 +962,7 @@ function cooperativa_views_default_views() {
     t('<a class="logoidentica logosrs" title="Identi.ca [title]" href="[field_identica-value]"></a>'),
     t('[field_identica]'),
     t('Identi.ca [title]'),
-    t('<a class="logotwitter logosrs" title="Twitter [title]" href="[field_twitter-value]"></a>'),
+    t('<a class="logotwitter logosrs" title="Twitter [title]" href="https://twitter.com/[field_twitter-value]"></a>'),
     t('[field_twitter]'),
     t('Twitter [title]'),
     t('<a class="logoyoutube logosrs" title="YouTube [title]" href="[field_youtube-value]"></a>'),

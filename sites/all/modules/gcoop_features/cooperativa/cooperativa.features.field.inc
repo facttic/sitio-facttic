@@ -805,7 +805,7 @@ function cooperativa_field_default_fields() {
       'bundle' => 'cooperativa',
       'default_value' => NULL,
       'deleted' => '0',
-      'description' => 'URL completa del usuario en Twitter',
+      'description' => 'Usuario en Twitter (sin @)',
       'display' => array(
         'default' => array(
           'label' => 'above',
@@ -926,8 +926,8 @@ function cooperativa_field_default_fields() {
   t('URL completa del feed rss ');
   t('URL completa del usuario en Facebook');
   t('URL completa del usuario en Identi.ca');
-  t('URL completa del usuario en Twitter');
   t('URL completa del usuario en YouTube');
+  t('Usuario en Twitter (sin @)');
   t('YouTube');
   t('imagen de no menos de 200 x 200 px ');
 
