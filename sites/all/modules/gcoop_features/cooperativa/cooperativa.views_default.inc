@@ -259,6 +259,161 @@ function cooperativa_views_default_views() {
   $export['direccion_sede'] = $view;
 
   $view = new view;
+  $view->name = 'feed_twitter_socios';
+  $view->description = 'Muestra un widget de twitter con las cuentas los socios de la cooperativa';
+  $view->tag = 'default';
+  $view->base_table = 'node';
+  $view->human_name = 'feed_twitter_socios';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['use_more_text'] = 'más';
+  $handler->display->display_options['access']['type'] = 'perm';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['query']['options']['query_comment'] = FALSE;
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['exposed_form']['options']['reset_button_label'] = 'Reiniciar';
+  $handler->display->display_options['exposed_form']['options']['exposed_sorts_label'] = 'Ordenar por';
+  $handler->display->display_options['exposed_form']['options']['sort_asc_label'] = 'Ascendente';
+  $handler->display->display_options['pager']['type'] = 'full';
+  $handler->display->display_options['pager']['options']['expose']['items_per_page_label'] = 'Elementos por página';
+  $handler->display->display_options['pager']['options']['expose']['items_per_page_options_all_label'] = '- Todos -';
+  $handler->display->display_options['pager']['options']['expose']['offset_label'] = 'Desplazamiento';
+  $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['row_plugin'] = 'fields';
+  /* Campo: Contenido: Twitter Socios */
+  $handler->display->display_options['fields']['field_twitter_socios']['id'] = 'field_twitter_socios';
+  $handler->display->display_options['fields']['field_twitter_socios']['table'] = 'field_data_field_twitter_socios';
+  $handler->display->display_options['fields']['field_twitter_socios']['field'] = 'field_twitter_socios';
+  $handler->display->display_options['fields']['field_twitter_socios']['label'] = '';
+  $handler->display->display_options['fields']['field_twitter_socios']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_twitter_socios']['alter']['alter_text'] = 0;
+  $handler->display->display_options['fields']['field_twitter_socios']['alter']['make_link'] = 0;
+  $handler->display->display_options['fields']['field_twitter_socios']['alter']['absolute'] = 0;
+  $handler->display->display_options['fields']['field_twitter_socios']['alter']['external'] = 0;
+  $handler->display->display_options['fields']['field_twitter_socios']['alter']['replace_spaces'] = 0;
+  $handler->display->display_options['fields']['field_twitter_socios']['alter']['trim_whitespace'] = 0;
+  $handler->display->display_options['fields']['field_twitter_socios']['alter']['nl2br'] = 0;
+  $handler->display->display_options['fields']['field_twitter_socios']['alter']['word_boundary'] = 1;
+  $handler->display->display_options['fields']['field_twitter_socios']['alter']['ellipsis'] = 1;
+  $handler->display->display_options['fields']['field_twitter_socios']['alter']['more_link'] = 0;
+  $handler->display->display_options['fields']['field_twitter_socios']['alter']['strip_tags'] = 0;
+  $handler->display->display_options['fields']['field_twitter_socios']['alter']['trim'] = 0;
+  $handler->display->display_options['fields']['field_twitter_socios']['alter']['html'] = 0;
+  $handler->display->display_options['fields']['field_twitter_socios']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_twitter_socios']['element_default_classes'] = 1;
+  $handler->display->display_options['fields']['field_twitter_socios']['hide_empty'] = 0;
+  $handler->display->display_options['fields']['field_twitter_socios']['empty_zero'] = 0;
+  $handler->display->display_options['fields']['field_twitter_socios']['hide_alter_empty'] = 1;
+  $handler->display->display_options['fields']['field_twitter_socios']['group_rows'] = 1;
+  $handler->display->display_options['fields']['field_twitter_socios']['delta_offset'] = '0';
+  $handler->display->display_options['fields']['field_twitter_socios']['delta_reversed'] = 0;
+  $handler->display->display_options['fields']['field_twitter_socios']['delta_first_last'] = 0;
+  $handler->display->display_options['fields']['field_twitter_socios']['field_api_classes'] = 0;
+  /* Campo: Global: PHP */
+  $handler->display->display_options['fields']['php']['id'] = 'php';
+  $handler->display->display_options['fields']['php']['table'] = 'views';
+  $handler->display->display_options['fields']['php']['field'] = 'php';
+  $handler->display->display_options['fields']['php']['label'] = '';
+  $handler->display->display_options['fields']['php']['alter']['alter_text'] = 0;
+  $handler->display->display_options['fields']['php']['alter']['make_link'] = 0;
+  $handler->display->display_options['fields']['php']['alter']['absolute'] = 0;
+  $handler->display->display_options['fields']['php']['alter']['external'] = 0;
+  $handler->display->display_options['fields']['php']['alter']['replace_spaces'] = 0;
+  $handler->display->display_options['fields']['php']['alter']['trim_whitespace'] = 0;
+  $handler->display->display_options['fields']['php']['alter']['nl2br'] = 0;
+  $handler->display->display_options['fields']['php']['alter']['word_boundary'] = 1;
+  $handler->display->display_options['fields']['php']['alter']['ellipsis'] = 1;
+  $handler->display->display_options['fields']['php']['alter']['more_link'] = 0;
+  $handler->display->display_options['fields']['php']['alter']['strip_tags'] = 0;
+  $handler->display->display_options['fields']['php']['alter']['trim'] = 0;
+  $handler->display->display_options['fields']['php']['alter']['html'] = 0;
+  $handler->display->display_options['fields']['php']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['php']['element_default_classes'] = 1;
+  $handler->display->display_options['fields']['php']['hide_empty'] = 0;
+  $handler->display->display_options['fields']['php']['empty_zero'] = 0;
+  $handler->display->display_options['fields']['php']['hide_alter_empty'] = 1;
+  $handler->display->display_options['fields']['php']['use_php_setup'] = 0;
+  $handler->display->display_options['fields']['php']['php_output'] = '<div id="t_coment">
+<?php
+drupal_add_js(\'sites/all/libraries/jquery.tweetsanywhere/jquery.jtweetsanywhere-1.2.1.min.js\');
+drupal_add_css(\'sites/all/libraries/jquery.tweetsanywhere/jquery.jtweetsanywhere-1.2.1.css\');
+
+$usernames = array();
+
+foreach ($data->field_field_twitter_socios as $cuenta) {
+  $usernames[] = $cuenta[\'raw\'][\'safe_value\'];
+}
+
+?><script type="text/javascript">
+  jQuery(\'#t_coment\').jTweetsAnywhere({
+    username: [\'<?php echo implode("\',\'", $usernames) ?>\'],
+    count: 20,
+      showTweetFeed: {
+         autorefresh: {
+           mode: \'auto-insert\',
+           interval: 5
+         },
+         paging: {
+           mode: \'endless-scroll\'
+         }
+      }
+  });
+</script>
+</div>';
+  $handler->display->display_options['fields']['php']['use_php_click_sortable'] = '0';
+  $handler->display->display_options['fields']['php']['php_click_sortable'] = '';
+  /* Criterio de ordenación: Contenido: Fecha del envío */
+  $handler->display->display_options['sorts']['created']['id'] = 'created';
+  $handler->display->display_options['sorts']['created']['table'] = 'node';
+  $handler->display->display_options['sorts']['created']['field'] = 'created';
+  $handler->display->display_options['sorts']['created']['order'] = 'DESC';
+  /* Filtro contextual: Contenido: Nid */
+  $handler->display->display_options['arguments']['nid']['id'] = 'nid';
+  $handler->display->display_options['arguments']['nid']['table'] = 'node';
+  $handler->display->display_options['arguments']['nid']['field'] = 'nid';
+  $handler->display->display_options['arguments']['nid']['default_action'] = 'not found';
+  $handler->display->display_options['arguments']['nid']['default_argument_type'] = 'fixed';
+  $handler->display->display_options['arguments']['nid']['default_argument_skip_url'] = 0;
+  $handler->display->display_options['arguments']['nid']['summary']['number_of_records'] = '0';
+  $handler->display->display_options['arguments']['nid']['summary']['format'] = 'default_summary';
+  $handler->display->display_options['arguments']['nid']['summary_options']['items_per_page'] = '25';
+  $handler->display->display_options['arguments']['nid']['break_phrase'] = 0;
+  $handler->display->display_options['arguments']['nid']['not'] = 0;
+  /* Criterios de filtrado: Contenido: Publicado */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Criterios de filtrado: Contenido: Tipo */
+  $handler->display->display_options['filters']['type']['id'] = 'type';
+  $handler->display->display_options['filters']['type']['table'] = 'node';
+  $handler->display->display_options['filters']['type']['field'] = 'type';
+  $handler->display->display_options['filters']['type']['value'] = array(
+    'cooperativa' => 'cooperativa',
+  );
+  $translatables['feed_twitter_socios'] = array(
+    t('Master'),
+    t('más'),
+    t('Aplicar'),
+    t('Reiniciar'),
+    t('Ordenar por'),
+    t('Ascendente'),
+    t('Desc'),
+    t('Elementos por página'),
+    t('- Todos -'),
+    t('Desplazamiento'),
+    t('Todo(s)'),
+  );
+  $export['feed_twitter_socios'] = $view;
+
+  $view = new view;
   $view->name = 'mapa_miembros';
   $view->description = '';
   $view->tag = 'default';

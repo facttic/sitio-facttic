@@ -495,3 +495,12 @@ color: #4d4d4d;
 margin-bottom: 20px;
 }
 
+/* widget twitter */
+.jta-tweet-list {
+  height: 445px;
+  overflow: auto;
+}
+.seguinos-home .jta-tweet-list {
+  height: 480px;
+}
+

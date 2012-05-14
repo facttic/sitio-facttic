@@ -841,6 +841,74 @@ function cooperativa_field_default_fields() {
     ),
   );
 
+  // Exported field: 'node-cooperativa-field_twitter_socios'
+  $fields['node-cooperativa-field_twitter_socios'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '-1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_twitter_socios',
+      'foreign keys' => array(
+        'format' => array(
+          'columns' => array(
+            'format' => 'format',
+          ),
+          'table' => 'filter_format',
+        ),
+      ),
+      'indexes' => array(
+        'format' => array(
+          0 => 'format',
+        ),
+      ),
+      'module' => 'text',
+      'settings' => array(
+        'max_length' => '255',
+      ),
+      'translatable' => '0',
+      'type' => 'text',
+    ),
+    'field_instance' => array(
+      'bundle' => 'cooperativa',
+      'default_value' => NULL,
+      'deleted' => '0',
+      'description' => 'Nombres de usuario de twitter (sin @) de los socios de la cooperativa (se verán en el feed al ver la cooperativa).',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'text',
+          'settings' => array(),
+          'type' => 'text_default',
+          'weight' => 12,
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_twitter_socios',
+      'label' => 'Twitter Socios',
+      'required' => 0,
+      'settings' => array(
+        'text_processing' => '0',
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'text',
+        'settings' => array(
+          'size' => '60',
+        ),
+        'type' => 'text_textfield',
+        'weight' => '13',
+      ),
+    ),
+  );
+
   // Exported field: 'node-cooperativa-field_youtube'
   $fields['node-cooperativa-field_youtube'] = array(
     'field_config' => array(
@@ -920,9 +988,11 @@ function cooperativa_field_default_fields() {
   t('Ingrese su dirección de correo electrónico.');
   t('Logo');
   t('Logo Cuadrado');
+  t('Nombres de usuario de twitter (sin @) de los socios de la cooperativa (se verán en el feed al ver la cooperativa).');
   t('RSS');
   t('Sede');
   t('Twitter');
+  t('Twitter Socios');
   t('URL completa del feed rss ');
   t('URL completa del usuario en Facebook');
   t('URL completa del usuario en Identi.ca');
