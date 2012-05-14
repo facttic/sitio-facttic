@@ -285,6 +285,31 @@ function cooperativa_views_default_views() {
   $handler->display->display_options['pager']['options']['expose']['offset_label'] = 'Desplazamiento';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
+  /* Campo: Contenido: Twitter */
+  $handler->display->display_options['fields']['field_twitter']['id'] = 'field_twitter';
+  $handler->display->display_options['fields']['field_twitter']['table'] = 'field_data_field_twitter';
+  $handler->display->display_options['fields']['field_twitter']['field'] = 'field_twitter';
+  $handler->display->display_options['fields']['field_twitter']['label'] = '';
+  $handler->display->display_options['fields']['field_twitter']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_twitter']['alter']['alter_text'] = 0;
+  $handler->display->display_options['fields']['field_twitter']['alter']['make_link'] = 0;
+  $handler->display->display_options['fields']['field_twitter']['alter']['absolute'] = 0;
+  $handler->display->display_options['fields']['field_twitter']['alter']['external'] = 0;
+  $handler->display->display_options['fields']['field_twitter']['alter']['replace_spaces'] = 0;
+  $handler->display->display_options['fields']['field_twitter']['alter']['trim_whitespace'] = 0;
+  $handler->display->display_options['fields']['field_twitter']['alter']['nl2br'] = 0;
+  $handler->display->display_options['fields']['field_twitter']['alter']['word_boundary'] = 1;
+  $handler->display->display_options['fields']['field_twitter']['alter']['ellipsis'] = 1;
+  $handler->display->display_options['fields']['field_twitter']['alter']['more_link'] = 0;
+  $handler->display->display_options['fields']['field_twitter']['alter']['strip_tags'] = 0;
+  $handler->display->display_options['fields']['field_twitter']['alter']['trim'] = 0;
+  $handler->display->display_options['fields']['field_twitter']['alter']['html'] = 0;
+  $handler->display->display_options['fields']['field_twitter']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_twitter']['element_default_classes'] = 1;
+  $handler->display->display_options['fields']['field_twitter']['hide_empty'] = 0;
+  $handler->display->display_options['fields']['field_twitter']['empty_zero'] = 0;
+  $handler->display->display_options['fields']['field_twitter']['hide_alter_empty'] = 1;
+  $handler->display->display_options['fields']['field_twitter']['field_api_classes'] = 0;
   /* Campo: Contenido: Twitter Socios */
   $handler->display->display_options['fields']['field_twitter_socios']['id'] = 'field_twitter_socios';
   $handler->display->display_options['fields']['field_twitter_socios']['table'] = 'field_data_field_twitter_socios';
@@ -344,6 +369,10 @@ drupal_add_js(\'sites/all/libraries/jquery.tweetsanywhere/jquery.jtweetsanywhere
 drupal_add_css(\'sites/all/libraries/jquery.tweetsanywhere/jquery.jtweetsanywhere-1.2.1.css\');
 
 $usernames = array();
+
+if (!empty($data->field_field_twitter[0][\'raw\'][\'safe_value\'])) {
+  $usernames[] = $data->field_field_twitter[0][\'raw\'][\'safe_value\'];
+}
 
 foreach ($data->field_field_twitter_socios as $cuenta) {
   $usernames[] = $cuenta[\'raw\'][\'safe_value\'];

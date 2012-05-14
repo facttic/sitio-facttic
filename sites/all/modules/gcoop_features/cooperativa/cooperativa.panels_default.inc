@@ -191,39 +191,6 @@ function cooperativa_default_panels_mini() {
     $pane->pid = 'new-11';
     $pane->panel = 'main';
     $pane->type = 'views';
-    $pane->subtype = 'feed_twitter_socios';
-    $pane->shown = TRUE;
-    $pane->access = array();
-    $pane->configuration = array(
-      'override_pager_settings' => 0,
-      'use_pager' => 1,
-      'nodes_per_page' => '0',
-      'pager_id' => '0',
-      'offset' => '0',
-      'more_link' => 0,
-      'feed_icons' => 0,
-      'panel_args' => 1,
-      'link_to_view' => 0,
-      'args' => '%0',
-      'url' => '',
-      'display' => 'default',
-      'override_title' => 1,
-      'override_title_text' => '',
-    );
-    $pane->cache = array();
-    $pane->style = array(
-      'settings' => NULL,
-    );
-    $pane->css = array();
-    $pane->extras = array();
-    $pane->position = 0;
-    $pane->locks = array();
-    $display->content['new-11'] = $pane;
-    $display->panels['main'][0] = 'new-11';
-    $pane = new stdClass();
-    $pane->pid = 'new-12';
-    $pane->panel = 'main';
-    $pane->type = 'views';
     $pane->subtype = 'redes_sociales_cooperativas';
     $pane->shown = TRUE;
     $pane->access = array();
@@ -245,7 +212,66 @@ function cooperativa_default_panels_mini() {
     );
     $pane->cache = array();
     $pane->style = array(
-      'settings' => NULL,
+      'settings' => array(
+        'title_element' => '',
+        'id' => '',
+        'class' => '',
+        'grid' => '16',
+        'prefix' => '',
+        'suffix' => '',
+        'pad' => '',
+        'push' => '',
+        'pull' => '',
+        'alpha' => 1,
+        'omega' => 1,
+      ),
+      'style' => 'precision_grid',
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $display->content['new-11'] = $pane;
+    $display->panels['main'][0] = 'new-11';
+    $pane = new stdClass();
+    $pane->pid = 'new-12';
+    $pane->panel = 'main';
+    $pane->type = 'views';
+    $pane->subtype = 'feed_twitter_socios';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'override_pager_settings' => 0,
+      'use_pager' => 1,
+      'nodes_per_page' => '0',
+      'pager_id' => '0',
+      'offset' => '0',
+      'more_link' => 0,
+      'feed_icons' => 0,
+      'panel_args' => 1,
+      'link_to_view' => 0,
+      'args' => '%0',
+      'url' => '',
+      'display' => 'default',
+      'override_title' => 1,
+      'override_title_text' => '',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => array(
+        'title_element' => '',
+        'id' => '',
+        'class' => '',
+        'grid' => '16',
+        'prefix' => '',
+        'suffix' => '',
+        'pad' => '',
+        'push' => '',
+        'pull' => '',
+        'alpha' => 1,
+        'omega' => 1,
+      ),
+      'style' => 'precision_grid',
     );
     $pane->css = array();
     $pane->extras = array();
@@ -254,7 +280,7 @@ function cooperativa_default_panels_mini() {
     $display->content['new-12'] = $pane;
     $display->panels['main'][1] = 'new-12';
   $display->hide_title = PANELS_TITLE_NONE;
-  $display->title_pane = 'new-12';
+  $display->title_pane = 'new-11';
   $mini->display = $display;
   $export['seguinos_cooperativas'] = $mini;
 
