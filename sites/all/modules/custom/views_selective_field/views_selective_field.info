@@ -1,0 +1,7 @@
+name = Views selective field
+description = Allows to render fields selectively
+package = Views
+core = 7.x
+dependencies[] = views
+; Views handlers
+files[] = plugins/views/views_selective_field_handler_field.inc

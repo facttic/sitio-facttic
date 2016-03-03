@@ -1,0 +1,7 @@
+name = facttic
+description = Built to use Bootstrap, a sleek, intuitive, and powerful front-end framework for faster and easier web development.
+core = 7.x
+base theme = bootstrap
+
+
+stylesheets[all][] = css/facttic.css

@@ -1,0 +1,12 @@
+name = importadores_contenido
+description = importadores de artículos de los rss de las cooperativas
+core = 7.x
+package = Features
+php = 5.2.4
+dependencies[] = ctools
+dependencies[] = feeds
+features[ctools][] = feeds:feeds_importer_default:1
+features[features_api][] = api:1
+features[feeds_importer][] = elvex
+features[feeds_importer][] = gcoop
+features[feeds_importer][] = pressenter

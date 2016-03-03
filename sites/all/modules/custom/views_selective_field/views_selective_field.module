@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Allows to render fields selectively.
+ */
+
+/**
+ * Implements hook_views_api().
+ */
+function views_selective_field_views_api() {
+  return array(
+    'api' => 3,
+  );
+}
+
+/**
+ * Implements hook_views_pre_execute().
+ *
+ * Remove our fake table from the query.
+ */
+function views_selective_field_views_pre_execute(&$view) {
+  unset($view->fields['selective_field']);
+}

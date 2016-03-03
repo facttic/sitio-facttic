@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the importadores_contenido feature.
+ */
+
+include_once 'importadores_contenido.features.inc';

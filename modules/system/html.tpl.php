@@ -49,6 +49,7 @@
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
   <?php print $scripts; ?>
+  <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Rambla:regular,italic,700,700italic&amp;subset=latin-ext" media="all" />
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
   <div id="skip-link">
