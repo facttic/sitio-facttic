@@ -13,6 +13,7 @@
       <div class="region container-48 clearfix">
         <div class="page-branding grid-48">
           <div class="page-branding-inner clearfix">
+          HOLA
             <?php print render($content['branding']); ?>
           </div>
         </div>
