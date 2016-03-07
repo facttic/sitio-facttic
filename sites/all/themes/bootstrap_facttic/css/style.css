@@ -60,15 +60,15 @@ outline: none;
 
 /*NAVEGACIÓN - MENU PRINCIPAL*/
 .page-nav-inner{
-background: url(../images/linea-1.png) no-repeat right bottom #fff;
+background: url(../images/linea-1.png) no-repeat left bottom #fff;
 margin-bottom: 10px;
 }
 /*BUSQUEDA HEADER*/
 .pane-search-form {
-background: url(../images/busqueda.png) no-repeat right bottom #fff;
+background: url(../images/busqueda.png) no-repeat right bottom #fff !important;
 border: 0px solid #fff;
-height: 33px;
-margin-top: 20px;
+/*height: 33px;
+margin-top: 20px;*/
 }
 .form-item-search-block-form input {
 border: 0px solid #fff;
@@ -176,7 +176,7 @@ ul.menu {
     list-style: none;
     margin: 5px;
     text-align: center;
-    width: 800px;
+    /*width: 800px;*/
 }
 .logosmiembros { 
 margin: 15px 2px;
@@ -566,4 +566,11 @@ margin-bottom: 20px;
 }
 .jta-nodata, .jta-error, .jta-loading {
   font-size: 0.7em;
+}
+
+
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
 }

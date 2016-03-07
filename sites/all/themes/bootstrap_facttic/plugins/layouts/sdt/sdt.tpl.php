@@ -12,12 +12,10 @@
 <?php
 
 /**
- * Template using twitter bootstrap for panels everywhere.
- * It assumes a modified version of bootstrap with 24 columns.
- *
- * Use only menus in the Navigation region.
+ * @file
+ * This layout is intended to be used inside the page content pane. Thats why
+ * there is not wrapper div by default.
  */
-
 ?>
 
 <div id="skip-link">
@@ -29,11 +27,11 @@
         <?php print render($content['header']); ?>
         <?php if (!empty($content['navbar'])): ?>
          <nav class="navbar navbar-default">
-          <div class="container-fluid">
+          <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu-collapse">
-                <span class="sr-only">Toggle navigation</span>
+                <!--<span class="sr-only">Toggle navigation</span>-->
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -50,21 +48,32 @@
     </header>
   <?php endif; ?>
 
-<main<?php print $css_id ? " id=\"$css_id\"" : ''; ?>>
-  <div class="container">
-   <?php if (!empty($content['main'])): ?>
-      <div id="main-content" class="clearfix col-md-12">
+  <?php if (!empty($content['main'])): ?>
+    <div class="row">
+      <div class="col-md-4">
+        <?php print render($content['main_left']); ?>
+      </div>
+      <div class="col-md-4">
+        <?php print render($content['main_center']); ?>
+      </div>
+      <div class="col-md-4">
+        <?php print render($content['main_right']); ?>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
         <?php print render($content['main']); ?>
       </div>
-    <?php endif; ?>
-  </div><!-- /container -->
-</main> 
-  <?php if (!empty($content['footer'])): ?>
-  <footer class="footer clearfix">
-	<div class="footer-content">
-    <?php print render($content['footer']); ?>
-	</div>
-  </footer>
-  <?php endif; ?>
+      <div class="col-md-6">
+        
+      </div>
+    </div>
+    
+  <?php endif; ?>    
+
+
+
+
+
 
 
