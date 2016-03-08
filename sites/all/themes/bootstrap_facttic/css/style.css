@@ -87,6 +87,13 @@ outline: none;
 display: none;
 }
 
+#logoHeader img {
+  /* Estilos de img-responsive */
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
 /*MENU PRINCIPAL superfish*/
 .sf-menu.sf-style-default {
 float: left;
