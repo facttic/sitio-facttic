@@ -23,7 +23,7 @@
   <?php endif; ?>
 
   <?php if ($title): ?>
-    <?php print $title_element; ?> <class="pane-title"><?php print $title; ?></<?php print $title_element; ?>>
+    <?php print $title_element; ?> <h2 class="pane-title"><?php print $title; ?><?php print $title_element; ?></h2>
   <?php endif; ?>
 
   <?php if ($feeds): ?>

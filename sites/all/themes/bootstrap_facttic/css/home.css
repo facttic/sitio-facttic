@@ -1,15 +1,14 @@
 /**------------------------ HOME ----------------**/
 .presentacion-home, .listadodenoticias, .seguinos-home,.bloque-cooperativa {
     background: #f2f2f2;
-    min-height: 570px;
     margin-bottom: 10px;
     color: #4d4d4d;
+    padding: 15px;
 }
 
 .titulosbloques {
     background: url(../images/linea-4.png) no-repeat scroll right bottom transparent;
-    font-family: Arial,Helvetica,sans-serif;
-    font-size: 10px;
+    font-size: 16px;
     font-weight: normal;
     margin: 5px 5px 30px;
     padding-bottom: 3px;
@@ -17,15 +16,24 @@
     text-transform: uppercase;
     display: block;
 }
-
+.page-inicio .pane-title {
+    margin-top: 0;
+    color: #4d4d4d;
+}
+.page-inicio .view-content .views-field.views-field-field-image {
+    float: left;
+    margin-right: 10px;
+}
 .texto-presentacion-home {
     margin: 10px;
 }
 
 .listadodenoticias {
-    font-family: Arial,Helvetica,sans-serif;
     font-size: .85em;
     font-weight: normal;
+}
+.listadodenoticias .views-field.views-field-title {
+    font-size: 13px;
 }
 
 .views-field-field-logocuadrado .logolistanoticias a {
@@ -38,8 +46,7 @@
 
 .listadodenoticias .views-field-title .titulonoticiaslista a {
     font-weight: bold;
-    font-size: .9em;
-    color: #4d4d4d;
+    color: #3F9ED1;
     text-decoration: none;
     line-height: 1em;
     outline: none;
@@ -135,4 +142,7 @@
 
 .presentacion-home {
 
+}
+.panel-pane.seguinos-home.redes-home {
+    background: none;
 }

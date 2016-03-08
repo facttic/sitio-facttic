@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Rambla:400,400italic,700');
+body {
+	font-family: 'Rambla', Helvetica, Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Rambla', Helvetica, Arial, sans-serif;
+}
 /*------------------------ HEADER ---------------------*/
-
+header.header {
+	padding-top: 30px;
+}
 /* LOGO */
 
 #logoHeader img {
@@ -12,9 +21,9 @@
 /* BUSQUEDA HEADER */
 
 .pane-search-form {
-	background: url(../images/busqueda.png) no-repeat right bottom #fff !important;
+	/*background: url(../images/busqueda.png) no-repeat right bottom #fff !important;
 	border: 0px solid #fff;
-	/*height: 33px;
+	height: 33px;
 	margin-top: 20px;*/
 }
 
@@ -174,4 +183,26 @@ ul.menu {
 }
 .navegador a:hover {
 	color: #000;
+}
+/*Buscador*/
+.form-search.content-search .input-group>.form-control.form-text {
+  height: 33px;
+  padding-left: 30px;
+  border: none;
+  box-shadow: none;
+  border-radius:0;
+	background: url(../images/form-busqueda.png) repeat-x right bottom #fff;
+}
+.form-search.content-search .input-group .input-group-btn {
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+.form-search.content-search .input-group .input-group-btn button {
+  background: url(../images/form-busqueda-bt.png) no-repeat right bottom #fff;
+  width: 29px;
+  height: 24px;
+  text-indent: -999em;
+  border:none;
+  text-shadow:none;
 }
