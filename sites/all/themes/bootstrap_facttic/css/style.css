@@ -238,6 +238,11 @@ text-align: right;
 text-transform: uppercase;
 display: block;
 }
+
+.texto-presentacion-home {
+  margin: 10px;
+}
+
 .listadodenoticias {
 font-family: Arial,Helvetica,sans-serif;
 font-size: .85em;
