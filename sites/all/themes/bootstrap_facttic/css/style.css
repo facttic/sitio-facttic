@@ -49,6 +49,12 @@ ul.action-links li a {
 ul.action-links li a:hover {
   background: #EEE;
 }
+
+ul, ol {
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+
 /*HEADER*/
 .logo {
 margin-top: 20px;
