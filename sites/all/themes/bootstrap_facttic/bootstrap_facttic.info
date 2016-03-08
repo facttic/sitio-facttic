@@ -31,6 +31,7 @@ stylesheets[all][] = css/template.css
 stylesheets[all][] = css/paginasCooperativas.css
 stylesheets[all][] = css/noticia.css
 stylesheets[all][] = css/home.css
+stylesheets[all][] = css/secciones.css
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Layouts
