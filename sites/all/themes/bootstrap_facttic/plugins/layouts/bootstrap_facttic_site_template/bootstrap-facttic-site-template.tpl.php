@@ -12,10 +12,10 @@
   <?php if (!empty($content['logo'])): ?>
     <header class="header container clearfix">
         <div class="row">
-          <div class="col-md-8">
+          <div class="col-md-9">
             <?php print render($content['logo']); ?>  
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <?php print render($content['search']); ?>  
           </div>
         </div>

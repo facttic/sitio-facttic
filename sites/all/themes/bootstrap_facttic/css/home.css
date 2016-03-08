@@ -65,13 +65,16 @@
     border-bottom: 1px dashed #ccc;
     margin: 15px auto;
     width: 300px;
-    padding-bottom: 4px;
+    padding-bottom: 10px;
+    overflow: hidden;
 }
 
 .view-noticias .views-row {
     width: auto;
 }
-
+.listadodenoticias .views-field-view-node {
+    position: relative;
+}
 .listadodenoticias .views-field-view-node a {
     background: url(../images/bullet-1.png) no-repeat scroll right bottom transparent;
     color: #F2F2F2;
@@ -79,10 +82,11 @@
     text-align: right;
     height: 12px;
     padding: 5px;
-    position: relative;
-    left: 275px;
-    bottom: 4px;
+    position: absolute;
+    bottom: 5px;
     outline: none;
+    right: 0;
+    display: block;
 }
 
 .view-noticias .views-field-view-node a {
@@ -132,6 +136,8 @@
     color: #F2F2F2;
     padding: 5px;
     text-decoration: none;
+    border: none;
+    text-indent: -999em;
 }
 
 .listadodenoticias .pager .pager-next.last a:hover {

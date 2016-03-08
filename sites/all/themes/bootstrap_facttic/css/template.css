@@ -9,6 +9,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 header.header {
 	padding-top: 30px;
 }
+.navbar {
+	margin-top: 30px;
+}
 /* LOGO */
 
 #logoHeader img {
@@ -47,7 +50,7 @@ header.header {
 /* NAVEGACIÓN - MENU PRINCIPAL */
 
 .page-nav-inner{
-	background: url(../images/linea-1.png) no-repeat left bottom #fff;
+	background: url(../images/linea-1.png) repeat-x left bottom #fff;
 	margin-bottom: 10px;
 }
 
@@ -103,7 +106,7 @@ header.header {
 /*---------------------------------- FOOTER ------------------------------------*/
 
 .page-closure {
-	background: url(../images/linea-footer3.png) no-repeat center top #fff;
+	background: url(../images/linea-footer3.png) repeat-x center top #fff;
 }
 .page-closure-wrapper .pane-content ul li.leaf {
 	display: inline;
