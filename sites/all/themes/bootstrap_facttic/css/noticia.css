@@ -1,0 +1,48 @@
+/*------------------------ NOTICIA COMPLETA --------------------------*/
+
+
+.view-noticias-logocoop .views-field-field-logo {
+	background: #fff;
+}
+
+.view-noticias-logocoop {
+	text-align: center;
+	font-size: .8em;
+	color: #4d4d4d;
+	background: #f2f2f2;
+	margin-bottom: 10px;
+	border-bottom: 1px dashed #CCCCCC;
+	padding-bottom: 10px;
+	position: relative;
+	bottom: 60px;
+}
+
+.view-noticias-logocoop a {
+	text-decoration: none;
+	outline: none;
+}
+
+.view-noticias-logocoop a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+.titulo-noticia-completa, .titulo-pagina {
+	font-size: 1.6em;
+	margin-top: 10px;
+}
+
+.fecha-noticia-completa, .fecha-pagina {
+	font-size:.9em;
+	color: #a6a6a6;
+	margin: 10px 0;
+	border-bottom: 1px dashed #CCCCCC;
+	width: auto;
+	padding: 3px;
+}
+
+.cuerpo-noticiacompleta, .cuerpo-pagina {
+	font-size: .9em;
+	color: #4d4d4d;
+	margin-bottom: 20px;
+}

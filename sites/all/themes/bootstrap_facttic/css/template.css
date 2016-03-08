@@ -1,0 +1,177 @@
+/*------------------------ HEADER ---------------------*/
+
+/* LOGO */
+
+#logoHeader img {
+  /* Estilos de img-responsive */
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+/* BUSQUEDA HEADER */
+
+.pane-search-form {
+	background: url(../images/busqueda.png) no-repeat right bottom #fff !important;
+	border: 0px solid #fff;
+	/*height: 33px;
+	margin-top: 20px;*/
+}
+
+.form-item-search-block-form input {
+	border: 0px solid #fff;
+	height: 33px;
+	background: transparent;    
+	padding-left: 30px;
+	width: 115px;
+}
+
+.form-item-search-block-form input:focus {
+	border: 0px solid #fff;
+	outline: none;
+}
+
+.container-inline .form-actions, .container-inline.form-actions {
+	display: none;
+}
+
+/* NAVEGACIÓN - MENU PRINCIPAL */
+
+.page-nav-inner{
+	background: url(../images/linea-1.png) no-repeat left bottom #fff;
+	margin-bottom: 10px;
+}
+
+/* MENU PRINCIPAL superfish */
+.sf-menu.sf-style-default {
+	float: left;
+	margin-bottom: 0.6em;
+	padding: 0;
+}
+
+.sf-menu.sf-style-default li, .sf-menu.sf-style-default.sf-navbar {
+    background: none repeat scroll 0 0 #fff;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.sf-menu.sf-style-default li.active-trail a, 
+.sf-menu.sf-style-default li.active-trail {
+  background: #E5E5E5;
+  color:#000;
+}
+
+.sf-menu.sf-style-default a {
+  border-left: 1px solid #fff;
+  border-top: 1px solid #fff;
+  padding: 0.75em 1em;
+}
+
+.sf-menu.sf-style-default a, .sf-menu.sf-style-default a:visited {
+    color: #4D4D4D;
+    text-decoration: none;
+}
+
+.sf-menu.sf-style-default li:hover,
+.sf-menu.sf-style-default li.sfHover,
+.sf-menu.sf-style-default a:focus,
+.sf-menu.sf-style-default a:hover,
+.sf-menu.sf-style-default a:active {
+  background: #E5E5E5;
+  outline: 0;
+  color: #000;  
+}
+
+.sf-menu.sf-style-default li li {
+  background:  #D8D8D8;  
+}
+
+.sf-menu.sf-style-default li li li {
+  background: #CCCCCC; 
+} 
+
+/*---------------------------------- FOOTER ------------------------------------*/
+
+.page-closure {
+	background: url(../images/linea-footer3.png) no-repeat center top #fff;
+}
+.page-closure-wrapper .pane-content ul li.leaf {
+	display: inline;
+	list-style-type: none;
+}
+
+.page-miembros .page-closure {
+	background: url(../images/linea-footer2.png) no-repeat center top #fff;
+}
+
+.node-type-article .page-closure {
+	background: url(../images/linea-1a.png) no-repeat right top #fff;
+}
+
+.page-closure-wrapper  {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.page-closure-wrapper .enlacesdeinteres a {
+	color: #4D4D4D;
+	text-decoration: none;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-closure-wrapper .enlacesdeinteres a:hover {
+	color: #000;
+}
+
+.enlacesdeinteres {
+	height: 40px;
+	background: url(../images/linea-2.png) no-repeat center bottom transparent;
+	margin-top: 10px;
+}
+
+ul.menu {
+    border:none;
+    list-style: none;
+    margin: 5px;
+    text-align: center;
+    /*width: 800px;*/
+}
+
+.logosmiembros { 
+	margin: 15px 2px;
+	text-align: center;
+	background: url(../images/linea-2.png) no-repeat center bottom transparent;
+	padding-bottom: 10px;
+}
+
+.logosmiembros a { 
+	text-decoration: none;
+	outline: none;
+}
+.logoc img {
+	margin: 2px 8px;
+}
+.navegador {
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #4D4D4D;
+	margin: 10px 10px 15px;
+}
+.navegador a {
+	background: url(../images/firefox.png) no-repeat right 8px  transparent;
+	padding: 20px 31px 20px 0;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	outline: none;
+	color: #4D4D4D;
+}
+.navegador a:hover {
+	color: #000;
+}

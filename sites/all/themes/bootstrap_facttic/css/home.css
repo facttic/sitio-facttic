@@ -1,0 +1,138 @@
+/**------------------------ HOME ----------------**/
+.presentacion-home, .listadodenoticias, .seguinos-home,.bloque-cooperativa {
+    background: #f2f2f2;
+    min-height: 570px;
+    margin-bottom: 10px;
+    color: #4d4d4d;
+}
+
+.titulosbloques {
+    background: url(../images/linea-4.png) no-repeat scroll right bottom transparent;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    margin: 5px 5px 30px;
+    padding-bottom: 3px;
+    text-align: right;
+    text-transform: uppercase;
+    display: block;
+}
+
+.texto-presentacion-home {
+    margin: 10px;
+}
+
+.listadodenoticias {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: .85em;
+    font-weight: normal;
+}
+
+.views-field-field-logocuadrado .logolistanoticias a {
+    width: 37px;
+    outline: none;
+    float: left;
+    margin-right: 3px;
+    margin-bottom: 2px;
+}
+
+.listadodenoticias .views-field-title .titulonoticiaslista a {
+    font-weight: bold;
+    font-size: .9em;
+    color: #4d4d4d;
+    text-decoration: none;
+    line-height: 1em;
+    outline: none;
+}
+
+.listadodenoticias .views-field-title .titulonoticiaslista a:hover {
+    color: #5A5A5A;
+}
+
+.listadodenoticias .views-field-body .cuerponoticiaslista p {
+    color: #4d4d4d;
+    margin: 3px 0 0;
+}
+
+.listadodenoticias .views-row {
+    border-bottom: 1px dashed #ccc;
+    margin: 15px auto;
+    width: 300px;
+    padding-bottom: 4px;
+}
+
+.view-noticias .views-row {
+    width: auto;
+}
+
+.listadodenoticias .views-field-view-node a {
+    background: url(../images/bullet-1.png) no-repeat scroll right bottom transparent;
+    color: #F2F2F2;
+    font-size: 1px;
+    text-align: right;
+    height: 12px;
+    padding: 5px;
+    position: relative;
+    left: 275px;
+    bottom: 4px;
+    outline: none;
+}
+
+.view-noticias .views-field-view-node a {
+    background: none;
+    color: #4D4D4D;
+    font-size: 0.85em;
+    height: auto;
+    left: auto;
+    bottom: auto;
+}
+
+.view-noticias .views-field-view-node {
+    text-align: right;
+}
+
+.listadodenoticias .views-field-view-node a:hover {
+    background: url(../images/bullet-3.png) no-repeat scroll right bottom transparent;
+    outline: none;
+}
+
+.view-noticias .views-field-view-node a:hover {
+    background: none;
+}
+
+.view-noticias-home .pager li  {
+    color: #333;
+    font-weight: normal;
+}
+
+.listadodenoticias .pager .pager-previous.first a {
+    background: url(../images/bullet-4.png) no-repeat scroll right center transparent;
+    outline: none;
+    color: #F2F2F2;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.listadodenoticias .pager .pager-previous.first a:hover {
+    background: url(../images/bullet-2.png) no-repeat scroll right center transparent;
+    outline: none;
+    text-decoration: none;
+}
+
+.listadodenoticias .pager .pager-next.last a {
+    background: url(../images/bullet-3.png) no-repeat scroll right center transparent;
+    outline: none;
+    color: #F2F2F2;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.listadodenoticias .pager .pager-next.last a:hover {
+    background: url(../images/bullet-1.png) no-repeat scroll right center transparent;
+    outline: none;
+    text-decoration: none;
+}
+
+.presentacion-home {
+
+}

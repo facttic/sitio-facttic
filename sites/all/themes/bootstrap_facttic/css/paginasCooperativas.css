@@ -1,0 +1,192 @@
+/*-------------------------- PAGINAS COOPERATIVAS -------------------------------*/
+.pane-encabezado-cooperativas{
+    margin-top: 10px;
+}
+
+.pane-node-field-logo {
+    background: #fff;
+    border-bottom: 1px dashed #CCCCCC;
+    color: #4D4D4D;
+    margin-bottom: 10px;
+}
+
+.pane-direccion-sede {
+    background: none repeat scroll 0 0 #F2F2F2;
+    border-bottom: 1px dashed #CCCCCC;
+    color: #4D4D4D;
+    margin-bottom: 10px;
+    height: 220px;
+}
+
+.view-direccion-sede {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9em;
+    font-weight: normal;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.pane-direccion-sede .location.vcard {
+    display: inline;
+}
+
+.pane-direccion-sede .location.vcard span {
+    display: block;
+    margin:7px 0;
+}
+
+.pane-direccion-sede .location.vcard .locality {
+    display: inline;
+}
+
+.views-field-field-correoelectronico a {
+    display: block;
+    margin:7px 0;
+    font-style: italic;
+    color: #4D4D4D;
+    text-decoration: none;
+}
+
+.views-field-field-correoelectronico a:hover {
+    outline: none;
+    color: #000;
+}
+
+.view-id-descripcion_actividad {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .85em;
+    font-weight: normal;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.tituloactividad {
+    background: url(../images/linea-4.png) no-repeat scroll left bottom transparent;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 3px 5px 15px;
+    padding-bottom: 3px;
+    text-align: left;
+    text-transform: uppercase;
+    display: block;
+}
+
+.presentacion-home, .listadodenoticias {
+
+}
+
+.pane-redes-sociales-cooperativas {  
+    text-align: center;
+    width: 300px;
+} 
+
+.pane-redes-sociales-cooperativas .view-redes-sociales-cooperativas {
+    text-align: left;
+}
+
+.pane-redes-sociales-cooperativas .view-redes-sociales-cooperativas .logosrs{  
+    display: block;
+    float: left;
+    height: 29px;
+    margin: 5px;
+    padding: 0;
+    text-align: center;
+    width: 37px;
+}
+
+a.logorss  {
+    background: url(../images/rss.png) no-repeat scroll center transparent;
+    outline: none;
+}
+
+a.logofacebook  {
+    background: url(../images/facebook.png) no-repeat scroll center transparent;
+    outline: none;
+}
+
+a.logoidentica {
+    background: url(../images/identica.png) no-repeat scroll center transparent;
+    outline: none;
+}
+
+a.logotwitter {
+    background: url(../images/twitter.png) no-repeat scroll center transparent;
+    outline: none;
+}
+
+a.logoyoutube {
+    background: url(../images/youtube.png) no-repeat scroll center transparent;
+    outline: none;
+}
+
+a.logocorreo {
+    background: url(../images/correo.png) no-repeat scroll center transparent;
+    outline: none;
+}
+
+.view-mapa-miembros .gmap-gmap {
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.listademiembros, .mapa-miembros {
+    min-height: 591px;
+}
+
+.view-miembros {
+    font-family: arial,Helvetica,sans-serif;
+    font-size: 0.85em;
+    color: #4D4D4D;
+    display: inline;
+}
+
+.view-miembros .views-row {
+    margin: 5px;
+    border-bottom: 1px dashed #CCCCCC;
+    padding: 10px;
+}
+
+.view-miembros .logolistamiembros {
+    width: 37px; 
+    float: left;
+    display: inline;
+    margin: 0px 4px 0 2px;
+}
+
+.view-miembros .views-field-title a, .view-miembros .logolistamiembros a {
+    font-family: arial,Helvetica,sans-serif;
+    color: #4D4D4D;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+    outline: none;
+}
+
+.view-miembros .views-field-title a:hover {
+    color: #000;
+}
+
+.view-miembros .location .street-address {
+    display: inline; 
+}
+
+.view-miembros .location .country-name {
+    display: inline; 
+}
+
+.page-wrapper {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-wrapper a {
+    color: #4D4D4D;
+}
+
+.page-wrapper a:hover {
+    color: #000;
+}
+
+.search-results {
+    font-size: 1em;
+}
