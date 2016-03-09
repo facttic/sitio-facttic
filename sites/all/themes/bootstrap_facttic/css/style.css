@@ -588,3 +588,9 @@ margin-bottom: 20px;
     float: none;
     margin: 0 auto;
 }
+
+/*---Contact Form---*/
+
+#contact-site-form button {
+    margin-bottom: 10px;
+}
