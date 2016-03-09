@@ -1,50 +1,50 @@
 /********* LISTADOS DE SECCIÓN ***********/
 
 #listado-seccion td {
-  vertical-align: top;
-  padding: 0px;
+    vertical-align: top;
+    padding: 0px;
   
 }
 
 .listado-seccion-encabezado {
     font-size: 20px;
     text-transform: uppercase;
-  margin: 20px 0px 30px 10px;
+    margin: 20px 0px 30px 10px;
 }
 
 .listado-seccion-item-content {
-  padding: 0px 10px 20px 10px;
+    padding: 0px 10px 20px 10px;
 }
 
 .listado-seccion-item-content-titulo {
-  margin-bottom: 10px;
-  border-top: 1px solid #ccc;
-  padding-top: 20px;
+    margin-bottom: 10px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
 }
 
 .row-first .listado-seccion-item-content-titulo {
-  border: none;
+    border: none;
 }
 
 .listado-seccion-item-content-titulo a {
-  color: #3F9ED1;
-  font-size: 17px;
+    color: #3F9ED1;
+    font-size: 17px;
 }
 
 .listado-seccion-item-content-cuerpo {
-  font-size: 15px;
+   font-size: 15px;
 }
 
 .listado-seccion-item-content-fecha {
     color: #909090;
     font-size: 12px;
     text-transform: uppercase;
-  margin-bottom: 6px;
+    margin-bottom: 6px;
 
 }
 
 #listado-seccion .pager {
-  margin-top: 30px;
+    margin-top: 30px;
 }
 
 
@@ -65,9 +65,9 @@
 }
 
 .seccion-nodo-cuerpo {
-  font-size: 13px;
+    font-size: 13px;
 }
 
 .seccion-nodo-compartir {
-  margin-bottom: 20px;
-}
+    margin-bottom: 20px;
+} 
