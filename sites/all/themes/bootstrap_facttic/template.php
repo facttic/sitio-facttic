@@ -25,6 +25,6 @@ function bootstrap_comunidad_process_page(&$variables) {
   }
 }
 
-function bootstrap_comunidad_preprocess_html(&$variables) {
+function bootstrap_facttic_preprocess_html(&$variables) {
   drupal_add_css('https://fonts.googleapis.com/css?family=Rambla:400,400italic,700', array('type' => 'external'));
 }
