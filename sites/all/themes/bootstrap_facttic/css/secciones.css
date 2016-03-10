@@ -33,6 +33,7 @@
 
 .listado-seccion-item-content-cuerpo {
    font-size: 15px;
+   word-wrap:break-word;
 }
 
 .listado-seccion-item-content-fecha {

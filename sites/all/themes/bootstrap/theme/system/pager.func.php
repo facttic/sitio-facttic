@@ -50,13 +50,13 @@ function bootstrap_pager($variables) {
   // 'parameters' => $parameters,
   // ));
   $li_previous = theme('pager_previous', array(
-    'text' => (isset($tags[1]) ? $tags[1] : t('previous')),
+    'text' => (isset($tags[1]) ? $tags[1] : t('anterior')),
     'element' => $element,
     'interval' => 1,
     'parameters' => $parameters,
   ));
   $li_next = theme('pager_next', array(
-    'text' => (isset($tags[3]) ? $tags[3] : t('next')),
+    'text' => (isset($tags[3]) ? $tags[3] : t('siguiente')),
     'element' => $element,
     'interval' => 1,
     'parameters' => $parameters,

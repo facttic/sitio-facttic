@@ -127,7 +127,7 @@ a.logocorreo {
 
 .view-mapa-miembros .gmap-gmap {
     margin-bottom: 15px;
-    margin-left: 15px;
+    margin-left: 0;
 }
 
 .listademiembros, .mapa-miembros {

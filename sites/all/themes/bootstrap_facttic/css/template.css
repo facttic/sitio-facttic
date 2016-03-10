@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Rambla:400,400italic,700');
 body {
 	font-family: 'Rambla', Helvetica, Arial, sans-serif;
 }
@@ -106,6 +107,7 @@ header.header {
 
 .page-closure {
 	background: url(../images/linea-footer3.png) repeat-x center top #fff;
+	margin-top: 40px;
 }
 .page-closure-wrapper .pane-content ul li.leaf {
 	display: inline;
@@ -207,4 +209,66 @@ ul.menu {
   text-indent: -999em;
   border:none;
   text-shadow:none;
+}
+@media screen and (max-width: 767px) {
+	nav.navbar {
+		background: #FFD200;
+		border:none;
+	}
+	nav.navbar .navbar-toggle:focus {
+		outline: none;
+	}
+	nav.navbar .sf-menu.sf-style-default li {
+		float: none;
+		font-size: 12px;
+	}
+	nav.navbar .sf-menu.sf-style-default li a {
+		background: #D2D2D2;
+		color: #000;
+		padding-left: 20px;
+		border-right:none;
+		border-left:none;
+	}
+	nav.navbar .page-nav-inner {
+		background: none;
+		margin-bottom: 0;
+	}
+	nav.navbar .navbar-toggle {
+		float: left;
+		margin-left: 10px;
+	}
+	nav.navbar .navbar-toggle .icon-bar {
+		background: #000;
+	}
+	nav.navbar .page-nav-inner .navbar-collapse {
+		padding: 0;
+	}
+	.navbar-collapse.in {
+		overflow-y:initial;
+	}
+	nav.navbar .page-nav-inner .navbar-collapse .pane-content ul {
+		float: none;
+		margin-bottom: 0;
+	}
+	nav.navbar .page-nav-inner .navbar-collapse .pane-content ul li:hover ul {
+    width: 100%;
+    position: inherit;
+    top: 0;
+    left: 0;
+  }
+  nav.navbar .page-nav-inner .navbar-collapse .pane-content ul li ul li {
+    font-size: 11px;
+  }
+  nav.navbar .page-nav-inner .navbar-collapse .pane-content ul li ul li a {
+    padding-left: 25px;
+    background: #E5E4E4;
+  }
+}
+@media screen and (max-width: 480px) {
+	header.header .panel-pane.pane-page-logo {
+		margin-bottom: 20px;
+	}
+	.panel-pane.pane-views.pane-mapa-miembros.mapa-miembros.bloque-cooperativa, .panel-pane.pane-views.pane-bloque-logos-view.logosmiembros.miembros {
+		display: none;
+	}
 }
