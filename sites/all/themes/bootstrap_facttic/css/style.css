@@ -29,7 +29,12 @@ p{
 /*******************************************************************
 * Color Module: Don't touch                                       *
 *******************************************************************/
-
+p {
+  font-size: 16px;
+}
+li {
+  font-size: 15px;
+}
 /**
  * Precision general minimal general stuffs
  */
@@ -277,7 +282,6 @@ margin: 3px 0 0;
 .listadodenoticias .views-row {
 border-bottom: 1px dashed #ccc;
 margin: 15px auto;
-width: 300px;
 padding-bottom: 4px;
 }
 

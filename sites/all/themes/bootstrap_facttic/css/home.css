@@ -29,11 +29,11 @@
 }
 
 .listadodenoticias {
-    font-size: .85em;
+    font-size: 14px;
     font-weight: normal;
 }
 .listadodenoticias .views-field.views-field-title {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .views-field-field-logocuadrado .logolistanoticias a {
@@ -64,7 +64,6 @@
 .listadodenoticias .views-row {
     border-bottom: 1px dashed #ccc;
     margin: 15px auto;
-    width: 300px;
     padding-bottom: 10px;
     overflow: hidden;
 }
