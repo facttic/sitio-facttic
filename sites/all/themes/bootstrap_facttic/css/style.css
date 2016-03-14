@@ -71,6 +71,9 @@ outline: none;
 background: url(../images/linea-1.png) no-repeat left bottom #fff;
 margin-bottom: 10px;
 }
+.navbar .sf-menu li:hover > ul {
+  width: 23em;
+}
 /*BUSQUEDA HEADER*/
 .pane-search-form {
 /*background: url(../images/busqueda.png) no-repeat right bottom #fff !important;
