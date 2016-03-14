@@ -52,6 +52,7 @@ plugins[panels][layouts] = plugins/layouts
 ; ;;;;;;;;;;;;;;;;;;;;;
 
 scripts[] = '../../libraries/bootstrap/js/bootstrap.min.js' 
+scripts[] = '../../libraries/jquery.migrate/jquery-migrate-1.2.1.js'
 ; scripts[] = 'bootstrap/js/affix.js'
 ; scripts[] = 'bootstrap/js/alert.js'
 ; scripts[] = 'bootstrap/js/button.js'
