@@ -249,7 +249,10 @@ font-size: 14px;
 .texto-presentacion-home {
   margin: 10px;
 }
-
+.texto-presentacion-home span{
+  margin-bottom: 20px;
+  display: block;
+}
 .listadodenoticias {
 font-weight: normal;
 }
@@ -597,4 +600,18 @@ margin-bottom: 20px;
 
 #contact-site-form button {
     margin-bottom: 10px;
+}
+
+/*Footer logos*/
+.page-closure .logolistamiembros {
+  list-style: none;
+}
+.page-closure .logolistamiembros li {
+  width: 37px; 
+  float: left;
+  display: inline;
+  margin: 0 8px 10px 8px;
+}
+.page-closure .pane-bloque-logos-view.logosmiembros {
+  overflow: hidden;
 }

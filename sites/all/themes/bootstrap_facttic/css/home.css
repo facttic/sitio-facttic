@@ -6,6 +6,14 @@
     padding: 15px;
 }
 
+.container .contextual-links-region .listadodenoticias, .container .contextual-links-region .presentacion-home {
+  min-height: 850px;
+}
+@media screen and (max-width: 990px) {
+    .container .contextual-links-region .listadodenoticias, .container .contextual-links-region .presentacion-home {
+      min-height: auto;
+    }
+}
 .titulosbloques {
     background: url(../images/linea-4.png) no-repeat scroll right bottom transparent;
     font-size: 16px;
