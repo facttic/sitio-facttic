@@ -100,7 +100,7 @@ header.header {
 .sf-menu.sf-style-default a:focus,
 .sf-menu.sf-style-default a:hover,
 .sf-menu.sf-style-default a:active {
-  background: #848484;
+  background: #333;
   outline: 0;
   color: #fff;  
 }

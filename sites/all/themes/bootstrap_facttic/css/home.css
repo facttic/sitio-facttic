@@ -85,6 +85,7 @@
 }
 .listadodenoticias .views-field-view-node {
     position: relative;
+    display: none;
 }
 .listadodenoticias .views-field-view-node a {
     background: url(../images/bullet-1.png) no-repeat scroll right bottom transparent;
