@@ -58,7 +58,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6 col-md-offset-3">
+      <div class="col-md-8 col-md-offset-2">
         <?php print render($content['members']); ?>            
       </div>
     </div>

@@ -35,7 +35,7 @@
 }
 
 .fecha-noticia-completa, .fecha-pagina {
-	font-size:.9em;
+	font-size:14px;
 	color: #a6a6a6;
 	margin: 10px 0;
 	border-bottom: 1px dashed #CCCCCC;

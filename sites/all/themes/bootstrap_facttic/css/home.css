@@ -1,13 +1,15 @@
 /**------------------------ HOME ----------------**/
-.presentacion-home, .listadodenoticias, .seguinos-home,.bloque-cooperativa {
+.presentacion-home, .listadodenoticias, .bloque-cooperativa {
     background: #f2f2f2;
     margin-bottom: 10px;
     color: #4d4d4d;
-    padding: 15px;
+    padding: 0;
 }
-
-.container .contextual-links-region .listadodenoticias, .container .contextual-links-region .presentacion-home {
-  min-height: 850px;
+.presentacion-home .pane-content, .listadodenoticias .pane-content, .bloque-cooperativa .pane-content {
+    padding: 10px 20px;
+}
+.container .listadodenoticias, .container .presentacion-home {
+  min-height: 925px;
 }
 @media screen and (max-width: 990px) {
     .container .contextual-links-region .listadodenoticias, .container .contextual-links-region .presentacion-home {
@@ -15,14 +17,19 @@
     }
 }
 .titulosbloques {
-    background: url(../images/linea-4.png) no-repeat scroll right bottom transparent;
     font-size: 16px;
-    font-weight: normal;
-    margin: 5px 5px 30px;
-    padding-bottom: 3px;
-    text-align: right;
+    font-weight: 700;
+    padding: 15px 20px;
+    margin: 0;
+    text-align: left;
     text-transform: uppercase;
     display: block;
+    background: none;
+    border-bottom: solid 1px #C6CDD1;
+    background: #D9E1E5;
+    border-radius: 3px 3px 0 0;
+    text-shadow:1px 1px 0 rgba(256, 256, 256, 0.4);
+    color: #333;
 }
 .page-inicio .pane-title {
     margin-top: 0;
@@ -33,15 +40,12 @@
     margin-right: 10px;
 }
 .texto-presentacion-home {
-    margin: 10px;
+    margin: 0;
 }
 
 .listadodenoticias {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: normal;
-}
-.listadodenoticias .views-field.views-field-title {
-    font-size: 14px;
 }
 
 .views-field-field-logocuadrado .logolistanoticias a {
@@ -71,7 +75,7 @@
 
 .listadodenoticias .views-row {
     border-bottom: 1px dashed #ccc;
-    margin: 15px auto;
+    margin: 0 auto 15px auto;
     padding-bottom: 10px;
     overflow: hidden;
 }
@@ -152,10 +156,13 @@
     outline: none;
     text-decoration: none;
 }
-
-.presentacion-home {
-
-}
 .panel-pane.seguinos-home.redes-home {
     background: none;
+}
+.panel-pane.seguinos-home.redes-home .titulosbloques, .pane-simplenews-30 .titulosbloques {
+    background: none;
+    border-bottom:none;
+}
+.panel-pane.seguinos-home.redes-home .pane-content, .pane-simplenews-30 .pane-content {
+    padding: 0 20px;
 }
