@@ -159,6 +159,9 @@
 .panel-pane.seguinos-home.redes-home {
     background: none;
 }
+.panel-pane.seguinos-home.redes-home .redes-sociales-home a {
+    margin-right: 5px;
+}
 .panel-pane.seguinos-home.redes-home .titulosbloques, .pane-simplenews-30 .titulosbloques {
     background: none;
     border-bottom:none;
