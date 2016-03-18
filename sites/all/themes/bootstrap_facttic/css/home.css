@@ -12,7 +12,7 @@
   min-height: 925px;
 }
 @media screen and (max-width: 990px) {
-    .container .contextual-links-region .listadodenoticias, .container .contextual-links-region .presentacion-home {
+    .container .listadodenoticias, .container .presentacion-home {
       min-height: auto;
     }
 }
